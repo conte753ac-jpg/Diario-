@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+<html lang="it" class="dark"><head><script data-bard-client-injected="true">(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIxMDI0MzMyOTYzNzU0MjQ5ODE5MiIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjXzY5NDk0Y2M4NDRlZmEyN2JfRGlhcmlvX1BhbGVzdHJhX1Byby5odG1sLTE1MiJ9LCJleHAiOjE3OTIxMzg4NDAsImlhdCI6MTc5MjEzNTI0MCwiYWxnIjoiUlMyNTYifQ.f-oST51Y12AUEG5hOggRMP87ocCjNdbhbOfnqQ9ZqY8ZDS2fSJCVhOL4Gnm-R-l4yxJX70KBnGTn4pA3TmZBDnjB2CR8kjiC977exOL0CXLwqitK4fAiyNe8LftGt5IwYlFhb2S8M-kcizYEdS7HNamkgfJZZd2xPM98yMq_NKZQxseax04SIOURFthSkongNf-4qiQfMbhuv72Oo-xN97lNI3JpaIvADD7tcdO920gztKcgGGpewea2HJ02LqobsENoG18R6FKHCuogMDDH4jQnakndwiFQqTDl7Jw173tS4EGFRgkYK6Vgyx_KHWQ9M0NT4me7M2lD7bCxVJRuHw","c_69494cc844efa27b_Diario_Palestra_Pro.html-152")</script><script data-bard-client-injected="true">
+  document.addEventListener('input', (event) => {
+    if (event.target && (event.target.isContentEditable || event.target.hasAttribute('contenteditable'))) {
+      const clonedDoc = document.cloneNode(true);
+      const injectedScripts = clonedDoc.querySelectorAll('[data-bard-client-injected="true"]');
+      injectedScripts.forEach(el => el.remove());
+      window.parent.postMessage({
+        type: 'inlineEdit',
+        html: '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML
+      }, '*');
+    }
+  });
+</script><script data-bard-client-injected="true">(function(){'use strict';window.addEventListener("message",a=>{a.data&&a.data.type==="SUPPLEMENTAL_DATA_UPDATE"&&window.dispatchEvent(new CustomEvent("supplementaldataupdate",{detail:a.data.data}))});}).call(this);
+</script><script data-bard-client-injected="true">(function(){'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};function l(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");}var n=l(this);
+function p(a,b){if(b)a:{var c=n;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&b!=null&&h(c,a,{configurable:!0,writable:!0,value:b})}}function r(a){function b(d){return a.next(d)}function c(d){return a.throw(d)}return new Promise(function(d,e){function f(g){g.done?d(g.value):Promise.resolve(g.value).then(b,c).then(f,e)}f(a.next())})}function t(a){return r(a())}
+p("Object.values",function(a){return a?a:function(b){var c=[],d;for(d in b)Object.prototype.hasOwnProperty.call(b,d)&&c.push(b[d]);return c}});p("Array.prototype.includes",function(a){return a?a:function(b,c){var d=this;d instanceof String&&(d=String(d));var e=d.length;c=c||0;for(c<0&&(c=Math.max(c+e,0));c<e;c++){var f=d[c];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function u(a,b){var c=a.style;b.backgroundColor&&(c.backgroundColor=b.backgroundColor);b.width&&(c.width=`${b.width}px`);b.height&&(c.height=`${b.height}px`);var d=b.style;d!=null&&Object.keys(d).forEach(e=>{c[e]=d[e]})};var v=(()=>{var a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){var b=[];for(let c=0,d=a.length;c<d;c++)b.push(a[c]);return b}let x=null;function y(a={}){return x?x:a.u?x=a.u:x=w(window.getComputedStyle(document.documentElement))}function z(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function A(a,b={}){var c;if(!(c=b.width)){c=z(a,"border-left-width");var d=z(a,"border-right-width");c=a.clientWidth+c+d}(b=b.height)||(b=z(a,"border-top-width"),d=z(a,"border-bottom-width"),b=a.clientHeight+b+d);return{width:c,height:b}}function B(a){return new Promise((b,c)=>{var d=new Image;d.onload=()=>{d.decode().then(()=>{requestAnimationFrame(()=>b(d))})};d.onerror=c;d.crossOrigin="anonymous";d.decoding="async";d.src=a})}
+function C(a){return t(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function D(a,b,c){return t(function*(){var d=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");d.setAttribute("width",`${b}`);d.setAttribute("height",`${c}`);d.setAttribute("viewBox",`0 0 ${b} ${c}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");d.appendChild(e);e.appendChild(a);return C(d)})}
+var E=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)};function F(a,b){return y(b).map(c=>{var d=a.getPropertyValue(c),e=a.getPropertyPriority(c);return`${c}: ${d}${e?" !important":""};`}).join(" ")}
+function G(a,b,c,d){a=window.getComputedStyle(a,c);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=v();try{b.className=`${b.className} ${f}`}catch(k){return}e=document.createElement("style");var g=e.appendChild;c=`.${f}:${c}`;a.cssText?(d=a.getPropertyValue("content"),d=`${a.cssText} content: '${d.replace(/'|"/g,"")}';`):d=F(a,d);g.call(e,document.createTextNode(`${c}{${d}}`));b.appendChild(e)}};function H(a){return a.search(/^(data:)/)!==-1}function I(a,b,c){return t(function*(){var d=yield fetch(a,b);if(d.status===404)throw Error(`Resource "${d.url}" not found`);var e=yield d.blob();return new Promise((f,g)=>{var k=new FileReader;k.onerror=g;k.onloadend=()=>{try{f(c({v:d,result:k.result}))}catch(m){g(m)}};k.readAsDataURL(e)})})}const J={};function aa(a,b,c){var d=a.replace(/\?.*/,"");c&&(d=a);/ttf|otf|eot|woff2?/i.test(d)&&(d=d.replace(/.*\//,""));return b?`[${b}]${d}`:d}
+function K(a,b,c){return t(function*(){var d=aa(a,b,c.F);if(J[d]!=null)return J[d];c.B&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());try{let f=yield I(a,c.l,({v:g,result:k})=>{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]});var e=`data:${b};base64,${f}`}catch(f){e=c.o||""}return J[d]=e})};const L={R:"application/font-woff",S:"application/font-woff",O:"application/font-truetype",C:"application/vnd.ms-fontobject",J:"image/png",H:"image/jpeg",G:"image/jpeg",D:"image/gif",N:"image/tiff",M:"image/svg+xml",P:"image/webp"};function M(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function ba(a){return t(function*(){var b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)})}function ca(a,b){return t(function*(){if(a.currentSrc){var c=document.createElement("canvas");let d=c.getContext("2d");c.width=a.clientWidth;c.height=a.clientHeight;d==null||d.drawImage(a,0,0,c.width,c.height);c=c.toDataURL();return B(c)}c=a.poster;c=yield K(c,L[M(c).toLowerCase()]||"",b);return B(c)})}
+function da(a,b){return t(function*(){try{let c;if(a==null?0:(c=a.contentDocument)==null?0:c.body)return yield N(a.contentDocument.body,b,!0)}catch(c){}return a.cloneNode(!1)})}function ea(a,b){return t(function*(){return E(a,HTMLCanvasElement)?ba(a):E(a,HTMLVideoElement)?ca(a,b):E(a,HTMLIFrameElement)?da(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function fa(a,b,c){return t(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;var d=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)d=w(a.assignedNodes());else{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))d=w(a.contentDocument.body.childNodes);else{let f;d=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(d.length===0||E(a,HTMLVideoElement))return b;yield d.reduce((e,f)=>e.then(()=>N(f,c)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function ha(a,b,c){var d=b.style;if(d){var e=window.getComputedStyle(a);e.cssText?(d.cssText=e.cssText,d.transformOrigin=e.transformOrigin):y(c).forEach(f=>{var g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);d.setProperty(f,g,e.getPropertyPriority(f))})}}
+function ia(a,b){E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(c=>a.value===c.getAttribute("value")))&&b.setAttribute("selected","")}
+function ja(a,b){return t(function*(){var c=a.querySelectorAll?a.querySelectorAll("use"):[];if(c.length===0)return a;var d={};for(var e=0;e<c.length;e++){var f=c[e].getAttribute("xlink:href");if(f){let g=document.querySelector(f);a.querySelector(f)||!g||d[f]||(d[f]=yield N(g,b,!0))}}c=Object.values(d);if(c.length){d=document.createElementNS("http://www.w3.org/1999/xhtml","svg");d.setAttribute("xmlns","http://www.w3.org/1999/xhtml");d.style.position="absolute";d.style.width="0";d.style.height="0";
+d.style.overflow="hidden";d.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");d.appendChild(e);for(f=0;f<c.length;f++)e.appendChild(c[f]);a.appendChild(d)}return a})}
+function N(a,b,c){return t(function*(){return c||!b.filter||b.filter(a)?Promise.resolve(a).then(d=>ea(d,b)).then(d=>fa(a,d,b)).then(d=>{E(d,Element)&&(ha(a,d,b),G(a,d,":before",b),G(a,d,":after",b),E(a,HTMLTextAreaElement)&&(d.textContent=a.value),E(a,HTMLInputElement)&&d.setAttribute("value",a.value),ia(a,d));return d}).then(d=>ja(d,b)):null})};const O=/url\((['"]?)([^'"]+?)\1\)/g,ka=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,la=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function ma(a){var b=[];a.replace(O,(c,d,e)=>{b.push(e);return c});return b.filter(c=>!H(c))}
+function na(a,b,c,d){return t(function*(){try{let e=c?(new URL(b,c||void 0)).toString():b,f;f=yield K(e,L[M(b).toLowerCase()]||"",d);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function oa(a,{K:b}){return b?a.replace(la,c=>{for(;;){let [d,,e]=ka.exec(c)||[];if(!e)return"";if(e===b)return`src: ${d};`}}):a}
+function P(a,b,c){return t(function*(){if(a.search(O)===-1)return a;var d=oa(a,c);return ma(d).reduce((e,f)=>e.then(g=>na(g,f,b,c)),Promise.resolve(d))})};function Q(a,b,c){return t(function*(){var d,e=(d=b.style)==null?void 0:d.getPropertyValue(a);return e?(d=yield P(e,null,c),b.style.setProperty(a,d,b.style.getPropertyPriority(a)),!0):!1})}function pa(a,b){return t(function*(){(yield Q("background",a,b))||(yield Q("background-image",a,b));(yield Q("mask",a,b))||(yield Q("-webkit-mask",a,b))||(yield Q("mask-image",a,b))||(yield Q("-webkit-mask-image",a,b))})}
+function qa(a,b){return t(function*(){var c=E(a,HTMLImageElement);if(c&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal)){var d=c?a.src:a.href.baseVal,e=yield K(d,L[M(d).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.h?(...k)=>{try{f(b.h(...k))}catch(m){g(m)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");c?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function ra(a,b){return t(function*(){var c=w(a.childNodes).map(d=>R(d,b));yield Promise.all(c).then(()=>a)})}function R(a,b){return t(function*(){E(a,Element)&&(yield pa(a,b),yield qa(a,b),yield ra(a,b))})};const S={};function T(a){return t(function*(){var b=S[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return S[a]=b})}function U(a,b){return t(function*(){var c=a.cssText,d=/url\(["']?([^"')]+)["']?\)/g,e=(c.match(/url\([^)]+\)/g)||[]).map(f=>t(function*(){var g=f.replace(d,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.l,({result:k})=>{c=c.replace(f,`url(${k})`);return[f,k]})}));return Promise.all(e).then(()=>c)})}
+function V(a){if(a==null)return[];var b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var c=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var d=c.exec(a);if(d===null)break;b.push(d[0])}a=a.replace(c,"");c=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(d=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=c.exec(a);if(e===null)if(e=d.exec(a),e===null)break;else c.lastIndex=d.lastIndex;else d.lastIndex=
+c.lastIndex;b.push(e[0])}return b}
+function sa(a,b){return t(function*(){var c=[],d=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let k=g+1;f=T(f.href).then(m=>U(m,b)).then(m=>V(m).forEach(q=>{try{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)}catch(Fa){}})).catch(()=>{});d.push(f)}})}catch(f){let g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&d.push(T(e.href).then(k=>U(k,b)).then(k=>V(k).forEach(m=>{g.insertRule(m,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(d).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{c.push(f)})}catch(f){}});return c})})}function ta(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(O)!==-1)}function ua(a,b){return t(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var c=w(a.ownerDocument.styleSheets);c=yield sa(c,b);return ta(c)})}
+function va(a){function b(d){(d.style.fontFamily||getComputedStyle(d).fontFamily).split(",").forEach(e=>{c.add(e.trim().replace(/["']/g,""))});Array.from(d.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}var c=new Set;b(a);return c}function wa(a,b){return t(function*(){var c=yield ua(a,b),d=va(a);return(yield Promise.all(c.filter(e=>d.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>P(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function xa(a,b){return t(function*(){var c=b.m!=null?b.m:b.A?null:yield wa(a,b);if(c){let d=document.createElement("style");d.appendChild(document.createTextNode(c));a.firstChild?a.insertBefore(d,a.firstChild):a.appendChild(d)}})};function ya(a,b={}){return t(function*(){var {width:c,height:d}=A(a,b),e=yield N(a,b,!0);yield xa(e,b);yield R(e,b);u(e,b);return yield D(e,c,d)})}
+function za(a,b={}){return t(function*(){var {width:c,height:d}=A(a,b),e=yield ya(a,b);e=yield B(e);var f=document.createElement("canvas"),g=f.getContext("2d"),k=b.I||window.devicePixelRatio||1,m=b.j||c,q=b.i||d;f.width=m*k;f.height=q*k;!b.L&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384));
+f.style.width=`${m}`;f.style.height=`${q}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function Aa(a,b={}){return t(function*(){return(yield za(a,b)).toDataURL()})};const Ba=["gemini.google.com","corp.google.com","proxy.googlers.com"];function W(){return document.body.querySelectorAll('[class*="animate"]').length>0}function X(a,b){var c=document.createElement("canvas");c.width=a;c.height=b;return c.toDataURL("image/png")}const Y=X(1,1);
+function Z(a){return t(function*(){try{return yield Aa(a,{j:a.offsetWidth,i:a.offsetHeight,A:!0,filter:b=>{if(b.tagName==="IMG"){let c=b.getAttribute("src");if(!c||c.trim()===""||b.style.display==="none")return!1}return!0},o:Y,h:()=>Y})}catch(b){return X(a.offsetWidth,a.offsetHeight)}})}
+function Ca(){return t(function*(){var a=document.body.offsetWidth,b=document.body.offsetHeight,c=document.body.cloneNode(!0);c.querySelectorAll('[class*="animate"]').forEach(d=>{d.classList.remove(...Array.from(d.classList).filter(e=>e.startsWith("animate")))});c.style.width=`${a}px`;c.style.height=`${b}px`;return c})}
+function Da(a){return t(function*(){var b=document.body;if(W()){var c=yield Ca();b=c;document.body.appendChild(c)}c=yield Z(b);W()&&document.body.removeChild(b);window.parent.postMessage({type:"SEND_SCREENSHOT",image:c,topOffset:document.documentElement.scrollTop},a.origin)})}function Ea(a){return t(function*(){var b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}
+window.addEventListener("message",a=>t(function*(){if(Ba.some(c=>a.origin.includes(c))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Da(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ea(a)))}}));
+})();</script><script data-bard-client-injected="true">(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script data-bard-client-injected="true">
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script ws-interception-config="{&quot;parentOrigin&quot;:&quot;https://gemini.google.com&quot;,&quot;proxiedDomains&quot;:[]}" data-bard-client-injected="true">(function(){'use strict';var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,d,e){if(b==Array.prototype||b==Object.prototype)return b;b[d]=e.value;return b};function v(b){b=["object"==typeof globalThis&&globalThis,b,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var d=0;d<b.length;++d){var e=b[d];if(e&&e.Math==Math)return e}throw Error("Cannot find global object");}var w=v(this);
+function y(b,d){if(d)a:{var e=w;b=b.split(".");for(var h=0;h<b.length-1;h++){var k=b[h];if(!(k in e))break a;e=e[k]}b=b[b.length-1];h=e[b];d=d(h);d!=h&&d!=null&&u(e,b,{configurable:!0,writable:!0,value:d})}}function z(b){function d(h){return b.next(h)}function e(h){return b.throw(h)}return new Promise(function(h,k){function m(n){n.done?h(n.value):Promise.resolve(n.value).then(d,e).then(m,k)}m(b.next())})}y("globalThis",function(b){return b||w});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function A(b,d){function e(){}e.prototype=d.prototype;b.j=d.prototype;b.prototype=new e;b.prototype.constructor=b;b.h=function(h,k,m){for(var n=Array(arguments.length-2),p=2;p<arguments.length;p++)n[p-2]=arguments[p];return d.prototype[k].apply(h,n)}};function B(b,d,e="*"){function h(a){if(typeof a==="string")return F.encode(a).buffer;if(a instanceof ArrayBuffer)return a.slice(0);if(ArrayBuffer.isView(a))return a.buffer.slice(a.byteOffset,a.byteOffset+a.byteLength);throw Error("Invalid data type");}function k(a){a=h(a);var f={type:"send",data:new Uint8Array(a)},g;(g=r)==null||g.postMessage(f,[a])}function m(){if(!r)throw Error("Data port not captured yet.");r.onmessage=a=>{if(a.data.type==="message"){a=new MessageEvent("message",{data:G.decode(a.data.data)});
+let f;(f=c.onmessage)==null||f.call(c,a);c.dispatchEvent(a)}}}function n(){if(!t)throw Error("Control port not captured yet.");t.onmessage=a=>{switch(a.data.type){case "open":l=1;var f=new Event("open"),g;(g=c.onopen)==null||g.call(c,f);c.dispatchEvent(f);q.forEach(H=>{k(H)});q=[];break;case "close":g=a.data;l=3;g=new CloseEvent("close",{code:g.code,reason:g.reason,wasClean:g.wasClean});(f=c.onclose)==null||f.call(c,g);c.dispatchEvent(g);break;case "error":l=3;f=new Event("error");let x;(x=c.onerror)==
+null||x.call(c,f);c.dispatchEvent(f)}}}function p(a){return z(function*(){var f=new MessageChannel;t=f.port1;var g=new MessageChannel;r=g.port1;n();m();window.parent.postMessage({type:"websocket_open",portOrdering:["control","data"],url:b,protocols:a||[],connectionId:I},e,[f.port2,g.port2])}())}var c=Reflect.construct(EventTarget,[],new.target);c.CONNECTING=0;c.OPEN=1;c.CLOSING=2;c.CLOSED=3;c.url=b;c.binaryType="arraybuffer";c.protocol="";c.i="";var l=0,t=null,r=null,q=[],F=new TextEncoder,G=new TextDecoder;
+c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;Object.defineProperty(c,"readyState",{get:()=>l,enumerable:!0,configurable:!0});Object.defineProperty(c,"bufferedAmount",{get:()=>{var a=0;q.forEach(f=>{a+=typeof f==="string"?f.length:f.byteLength});return a},enumerable:!0,configurable:!0});var I=function(){var a;return((a=globalThis.crypto)==null?0:a.randomUUID)?globalThis.crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,f=>{var g=Math.random()*16|0;return(f===
+"x"?g:g&3|8).toString(16)})}();c.send=a=>{if(l===1)a instanceof Blob?a.arrayBuffer().then(f=>{k(f)}):k(a);else if(l===0)if(typeof a==="string")q.push(a);else if(a instanceof ArrayBuffer||ArrayBuffer.isView(a))q.push(h(a));else throw Error("Sending Blob is not supported before the connection is open.");else console.debug("WebSocket send called in CLOSING or CLOSED state; ignored.")};c.close=(a=1E3,f="")=>{if(l!==2&&l!==3){l=2;a={type:"close",code:a,reason:f,wasClean:a===1E3};var g;(g=t)==null||g.postMessage(a)}};
+Promise.resolve().then(()=>p(d));return c}A(B,EventTarget);var C=document.currentScript,D=C==null?void 0:C.getAttribute("ws-interception-config");if(!D)throw Error("WebSocket Interceptor: Missing ws-interception-config attribute in the script tag.");var E=JSON.parse(D);if(!E.parentOrigin||typeof E.parentOrigin!=="string")throw Error("WebSocket Interceptor: Invalid parentOrigin in ws-interception-config");
+(function(b){var d=Object.getOwnPropertyDescriptor(window,"WebSocket");if(!d||d.writable||d.configurable)d=Object.assign(function(e,h){try{let k=(new URL(e)).hostname;if(b.proxiedDomains.some(m=>k===m||k.endsWith(`.${m}`)))return new B(e,h,b.parentOrigin)}catch(k){throw window.parent.postMessage({type:"websocket_blocked",url:e,reason:"blocked_invalid_url"},b.parentOrigin),new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");}window.parent.postMessage({type:"websocket_blocked",
+url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");},{CONNECTING:0,OPEN:1,CLOSING:2,CLOSED:3}),Object.defineProperty(window,"WebSocket",{value:d,writable:!1,configurable:!1})})({proxiedDomains:E.proxiedDomains||[],parentOrigin:E.parentOrigin});}).call(this);
+</script><script data-bard-client-injected="true">((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedGenerateImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedImageTransformModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-3-flash-preview","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-3.1-flash-image","imageTransformModelName":"gemini-3-pro-image","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"],"deprecatedGenerateImageModelNames":["gemini-2.5-flash-image-preview","gemini-2.5-flash-image","gemini-3.1-flash-image-preview"],"deprecatedImageTransformModelNames":["gemini-3-pro-image-preview-11-2025"]})</script><script data-bard-client-injected="true">(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script data-bard-client-injected="true">(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Diario Palestra Pro</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#020617">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { -webkit-tap-highlight-color: transparent; box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #020617;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      overscroll-behavior-y: none;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    input, select, textarea {
+      -webkit-user-select: text;
+      user-select: text;
+      font-size: 16px !important;
+    }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .safe-top { padding-top: max(0.75rem, env(safe-area-inset-top)); }
+    .safe-bottom { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.sticky{position:sticky}.inset-0{inset:0px}.bottom-0{bottom:0px}.bottom-20{bottom:5rem}.left-0{left:0px}.left-1\/2{left:50%}.right-0{right:0px}.top-0{top:0px}.top-20{top:5rem}.z-30{z-index:30}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-1\.5{margin-bottom:0.375rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-8{height:2rem}.h-9{height:2.25rem}.max-h-\[90vh\]{max-height:90vh}.max-h-\[92vh\]{max-height:92vh}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-\[92\%\]{width:92%}.w-full{width:100%}.max-w-lg{max-width:32rem}.max-w-md{max-width:28rem}.max-w-xl{max-width:36rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.list-inside{list-style-position:inside}.list-decimal{list-style-type:decimal}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-2\.5{gap:0.625rem}.gap-3{gap:0.75rem}.space-y-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.375rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-2\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.625rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.625rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-3\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.875rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.875rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-t-3xl{border-top-left-radius:1.5rem;border-top-right-radius:1.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-amber-500\/30{border-color:rgb(245 158 11 / 0.3)}.border-amber-500\/60{border-color:rgb(245 158 11 / 0.6)}.border-cyan-500\/30{border-color:rgb(6 182 212 / 0.3)}.border-cyan-500\/40{border-color:rgb(6 182 212 / 0.4)}.border-emerald-400{--tw-border-opacity:1;border-color:rgb(52 211 153 / var(--tw-border-opacity, 1))}.border-emerald-500\/30{border-color:rgb(16 185 129 / 0.3)}.border-emerald-500\/40{border-color:rgb(16 185 129 / 0.4)}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-slate-800\/60{border-color:rgb(30 41 59 / 0.6)}.bg-amber-500\/10{background-color:rgb(245 158 11 / 0.1)}.bg-amber-500\/20{background-color:rgb(245 158 11 / 0.2)}.bg-cyan-500\/20{background-color:rgb(6 182 212 / 0.2)}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129 / var(--tw-bg-opacity, 1))}.bg-emerald-500\/10{background-color:rgb(16 185 129 / 0.1)}.bg-emerald-500\/15{background-color:rgb(16 185 129 / 0.15)}.bg-emerald-500\/20{background-color:rgb(16 185 129 / 0.2)}.bg-rose-500\/20{background-color:rgb(244 63 94 / 0.2)}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-slate-900\/95{background-color:rgb(15 23 42 / 0.95)}.bg-slate-950{--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1))}.bg-slate-950\/50{background-color:rgb(2 6 23 / 0.5)}.bg-slate-950\/85{background-color:rgb(2 6 23 / 0.85)}.bg-slate-950\/90{background-color:rgb(2 6 23 / 0.9)}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.from-emerald-400{--tw-gradient-from:#34d399 var(--tw-gradient-from-position);--tw-gradient-to:rgb(52 211 153 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-to:rgb(15 23 42 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-slate-900{--tw-gradient-to:rgb(15 23 42 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #0f172a var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-teal-600{--tw-gradient-to:#0d9488 var(--tw-gradient-to-position)}.to-emerald-950\/60{--tw-gradient-to:rgb(2 44 34 / 0.6) var(--tw-gradient-to-position)}.p-0{padding:0px}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.pb-0\.5{padding-bottom:0.125rem}.pb-1{padding-bottom:0.25rem}.pb-3{padding-bottom:0.75rem}.pb-32{padding-bottom:8rem}.pt-1{padding-top:0.25rem}.pt-1\.5{padding-top:0.375rem}.pt-2{padding-top:0.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.font-mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-wider{letter-spacing:0.05em}.text-amber-300{--tw-text-opacity:1;color:rgb(252 211 77 / var(--tw-text-opacity, 1))}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36 / var(--tw-text-opacity, 1))}.text-cyan-300{--tw-text-opacity:1;color:rgb(103 232 249 / var(--tw-text-opacity, 1))}.text-cyan-400{--tw-text-opacity:1;color:rgb(34 211 238 / var(--tw-text-opacity, 1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183 / var(--tw-text-opacity, 1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153 / var(--tw-text-opacity, 1))}.text-rose-300{--tw-text-opacity:1;color:rgb(253 164 175 / var(--tw-text-opacity, 1))}.text-slate-100{--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-950{--tw-text-opacity:1;color:rgb(2 6 23 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-emerald-500\/20{--tw-shadow-color:rgb(16 185 129 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.outline-none{outline:2px solid transparent;outline-offset:2px}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-cyan-500\/30:hover{background-color:rgb(6 182 212 / 0.3)}.hover\:bg-emerald-400:hover{--tw-bg-opacity:1;background-color:rgb(52 211 153 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-800\/90:hover{background-color:rgb(30 41 59 / 0.9)}.focus\:border-emerald-400:focus{--tw-border-opacity:1;border-color:rgb(52 211 153 / var(--tw-border-opacity, 1))}@media (min-width: 640px){.sm\:items-center{align-items:center}.sm\:rounded-3xl{border-radius:1.5rem}.sm\:border{border-width:1px}.sm\:p-4{padding:1rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-base{font-size:1rem;line-height:1.5rem}}</style></head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+  <header class="sticky top-0 z-30 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 px-4 pb-3 safe-top">
+    <div class="max-w-xl mx-auto flex items-center justify-between gap-2">
+      <div class="flex items-center gap-2.5">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center shadow-lg shadow-emerald-500/20 text-slate-950 font-black text-lg">
+          🏋️
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-extrabold text-base sm:text-lg text-white leading-tight">Diario Palestra</h1>
+            <span class="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+              Daniele Proietti
+            </span>
+          </div>
+          <p class="text-[11px] text-emerald-400 font-medium">Coach Gianmarco Mattia • Carichi Automatici</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-1.5">
+        <button onclick="openSafariInstallModal()" class="px-2.5 py-1.5 rounded-xl bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-xs font-extrabold flex items-center gap-1 shadow">
+          <span>📲 Safari / Home</span>
+        </button>
+        <button onclick="downloadSelfFile()" class="px-2.5 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 border border-emerald-400 text-xs font-black flex items-center gap-1 shadow">
+          <span>💾 Salva</span>
+        </button>
+        <button onclick="toggleSound()" id="btn-sound" class="p-2 rounded-xl bg-slate-800 text-emerald-400 border border-slate-700 text-xs font-bold" title="Suono Timer">
+          🔊
+        </button>
+        <div id="header-chrono" class="hidden items-center gap-1 bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 px-2.5 py-1.5 rounded-xl text-xs font-mono font-extrabold">
+          <span>⏱️</span>
+          <span id="header-chrono-text">00:00</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="toast-box" class="fixed top-20 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-md hidden pointer-events-none">
+    <div class="px-4 py-3 rounded-2xl shadow-2xl border bg-slate-900/95 text-emerald-300 border-emerald-500/40 font-bold text-sm flex items-center gap-2">
+      <span>✨</span>
+      <span id="toast-text"></span>
+    </div>
+  </div>
+
+  <main class="flex-1 max-w-xl w-full mx-auto px-4 pt-4 pb-32">
+    <section id="view-workout" class="space-y-5">
+          <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950/60 border border-slate-800 rounded-3xl p-5 shadow-xl space-y-3.5">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <span class="inline-block text-[11px] font-extrabold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full mb-1.5">🔥 Sala Pesi • Memoria Attiva</span>
+                <h2 class="text-xl sm:text-2xl font-extrabold text-white">Inizia ad Allenarti</h2>
+                <p class="text-xs text-slate-300 mt-1">Quando apri un Giorno, trovi <strong>già elencati e pre-inseriti i Kg e le ripetizioni</strong> della settimana scorsa.</p>
+              </div>
+            </div>
+            <button onclick="startEmptyWorkout()" class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold rounded-2xl shadow-lg text-sm">
+              + Inizia Allenamento Libero Vuoto
+            </button>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2.5">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 text-center">
+              <div class="text-[11px] text-slate-400">Sessioni Fatte</div>
+              <div class="text-xl font-extrabold text-white mt-0.5">0</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 text-center">
+              <div class="text-[11px] text-slate-400">Serie Totali</div>
+              <div class="text-xl font-extrabold text-emerald-400 mt-0.5">0</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 text-center">
+              <div class="text-[11px] text-slate-400">Volume (Kg)</div>
+              <div class="text-xl font-extrabold text-cyan-300 mt-0.5">0</div>
+            </div>
+          </div>
+
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs font-extrabold uppercase tracking-wider text-emerald-400">📋 Scheda Daniele Proietti (Tocca il giorno da ripetere)</h3>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">5 Giorni</span>
+            </div>
+            
+                <div onclick="startPresetWorkout('dp_giorno_1')" class="bg-slate-900 hover:bg-slate-800/90 border border-slate-800 rounded-2xl p-4 cursor-pointer shadow-md space-y-2 transition">
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <div class="font-extrabold text-white text-sm sm:text-base">🔥 Giorno 1 (Legs) - Scheda Daniele</div>
+                      <div class="text-xs text-slate-400 mt-0.5">Coach Gianmarco Mattia • 7 Esercizi</div>
+                    </div>
+                    <span class="px-3 py-2 rounded-xl bg-emerald-500 text-slate-950 font-black text-xs shrink-0 shadow">APRI ▶</span>
+                  </div>
+                  
+                    <div class="pt-1.5 border-t border-slate-800/60 text-[11px] text-slate-500">
+                      Prima sessione da registrare • I carichi resteranno salvati per le settimane successive
+                    </div>
+                  
+                </div>
+              
+                <div onclick="startPresetWorkout('dp_giorno_2')" class="bg-slate-900 hover:bg-slate-800/90 border border-slate-800 rounded-2xl p-4 cursor-pointer shadow-md space-y-2 transition">
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <div class="font-extrabold text-white text-sm sm:text-base">🔥 Giorno 2 (Push) - Scheda Daniele</div>
+                      <div class="text-xs text-slate-400 mt-0.5">Coach Gianmarco Mattia • 7 Esercizi/SS</div>
+                    </div>
+                    <span class="px-3 py-2 rounded-xl bg-emerald-500 text-slate-950 font-black text-xs shrink-0 shadow">APRI ▶</span>
+                  </div>
+                  
+                    <div class="pt-1.5 border-t border-slate-800/60 text-[11px] text-slate-500">
+                      Prima sessione da registrare • I carichi resteranno salvati per le settimane successive
+                    </div>
+                  
+                </div>
+              
+                <div onclick="startPresetWorkout('dp_giorno_3')" class="bg-slate-900 hover:bg-slate-800/90 border border-slate-800 rounded-2xl p-4 cursor-pointer shadow-md space-y-2 transition">
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <div class="font-extrabold text-white text-sm sm:text-base">🔥 Giorno 3 (Pull) - Scheda Daniele</div>
+                      <div class="text-xs text-slate-400 mt-0.5">Coach Gianmarco Mattia • 7 Esercizi (SX+DX)</div>
+                    </div>
+                    <span class="px-3 py-2 rounded-xl bg-emerald-500 text-slate-950 font-black text-xs shrink-0 shadow">APRI ▶</span>
+                  </div>
+                  
+                    <div class="pt-1.5 border-t border-slate-800/60 text-[11px] text-slate-500">
+                      Prima sessione da registrare • I carichi resteranno salvati per le settimane successive
+                    </div>
+                  
+                </div>
+              
+                <div onclick="startPresetWorkout('dp_giorno_4')" class="bg-slate-900 hover:bg-slate-800/90 border border-slate-800 rounded-2xl p-4 cursor-pointer shadow-md space-y-2 transition">
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <div class="font-extrabold text-white text-sm sm:text-base">🔥 Giorno 4 (Legs) - Scheda Daniele</div>
+                      <div class="text-xs text-slate-400 mt-0.5">Coach Gianmarco Mattia • 6 Esercizi (SX+DX)</div>
+                    </div>
+                    <span class="px-3 py-2 rounded-xl bg-emerald-500 text-slate-950 font-black text-xs shrink-0 shadow">APRI ▶</span>
+                  </div>
+                  
+                    <div class="pt-1.5 border-t border-slate-800/60 text-[11px] text-slate-500">
+                      Prima sessione da registrare • I carichi resteranno salvati per le settimane successive
+                    </div>
+                  
+                </div>
+              
+                <div onclick="startPresetWorkout('dp_giorno_5')" class="bg-slate-900 hover:bg-slate-800/90 border border-slate-800 rounded-2xl p-4 cursor-pointer shadow-md space-y-2 transition">
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <div class="font-extrabold text-white text-sm sm:text-base">🔥 Giorno 5 (Upper) - Scheda Daniele</div>
+                      <div class="text-xs text-slate-400 mt-0.5">Coach Gianmarco Mattia • 7 Esercizi</div>
+                    </div>
+                    <span class="px-3 py-2 rounded-xl bg-emerald-500 text-slate-950 font-black text-xs shrink-0 shadow">APRI ▶</span>
+                  </div>
+                  
+                    <div class="pt-1.5 border-t border-slate-800/60 text-[11px] text-slate-500">
+                      Prima sessione da registrare • I carichi resteranno salvati per le settimane successive
+                    </div>
+                  
+                </div>
+              
+          </div>
+        </section>
+    <section id="view-history" class="space-y-4 hidden"></section>
+    <section id="view-exercises" class="space-y-4 hidden"></section>
+    <section id="view-timer" class="space-y-6 hidden"></section>
+  </main>
+
+  <div id="floating-rest-bar" class="fixed bottom-20 left-0 right-0 z-30 px-4 hidden">
+    <div class="max-w-xl mx-auto bg-slate-900/95 backdrop-blur-md border-2 border-amber-500/60 rounded-2xl p-3 shadow-2xl flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-lg">⏳</div>
+        <div>
+          <div class="text-[10px] uppercase font-extrabold tracking-wider text-amber-400">Recupero Serie</div>
+          <div id="floating-rest-time" class="text-xl font-extrabold font-mono text-white">01:30</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <button onclick="adjustRest(-15)" class="px-2.5 py-1.5 rounded-lg bg-slate-800 text-xs font-bold text-slate-200">-15s</button>
+        <button onclick="adjustRest(15)" class="px-2.5 py-1.5 rounded-lg bg-slate-800 text-xs font-bold text-slate-200">+15s</button>
+        <button onclick="stopRest()" class="px-3 py-1.5 rounded-lg bg-rose-500/20 text-rose-300 text-xs font-bold">Salta</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-picker" class="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-sm hidden items-end sm:items-center justify-center p-0 sm:p-4">
+    <div class="bg-slate-900 border-t sm:border border-slate-800 w-full max-w-lg rounded-t-3xl sm:rounded-3xl max-h-[90vh] flex flex-col overflow-hidden shadow-2xl">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <h3 class="font-extrabold text-base text-white">Scegli Esercizio</h3>
+          <span id="picker-count" class="text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300">0</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="openNewExModal()" class="px-3 py-1.5 rounded-xl bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30">+ Crea Nuovo</button>
+          <button onclick="closePickerModal()" class="w-8 h-8 rounded-xl bg-slate-800 text-slate-300 font-bold">✕</button>
+        </div>
+      </div>
+      <div class="p-3 space-y-2.5 border-b border-slate-800 bg-slate-950/50">
+        <input id="picker-search" type="text" oninput="renderPickerList()" placeholder="Cerca esercizio, muscolo o attrezzo..." class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-emerald-400">
+        <div id="picker-categories" class="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar"></div>
+        <div class="flex items-center justify-between gap-2">
+          <div id="picker-equipments" class="flex items-center gap-1.5 overflow-x-auto pb-0.5 no-scrollbar"></div>
+          <button id="picker-uni-btn" onclick="toggleOnlyUniFilter()" class="px-2.5 py-1 rounded-lg text-[11px] font-extrabold shrink-0 border bg-slate-900 text-cyan-300 border-cyan-500/30">↔️ SX/DX</button>
+        </div>
+      </div>
+      <div id="picker-list" class="flex-1 overflow-y-auto p-3 space-y-2"></div>
+    </div>
+  </div>
+
+  <div id="modal-new-ex" class="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 w-full max-w-md rounded-3xl p-5 space-y-4 shadow-2xl">
+      <div class="flex items-center justify-between">
+        <h3 class="font-extrabold text-base text-white">Nuovo Esercizio Personalizzato</h3>
+        <button onclick="closeNewExModal()" class="w-8 h-8 rounded-xl bg-slate-800 text-slate-300 font-bold">✕</button>
+      </div>
+      <div class="space-y-3">
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-1">Nome Esercizio</label>
+          <input id="new-ex-name" type="text" placeholder="Es. Rematore Singolo al Cavo..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white outline-none">
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1">Gruppo Muscolare</label>
+            <select id="new-ex-cat" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white outline-none">
+              <option value="Petto">Petto</option>
+              <option value="Dorso">Dorso</option>
+              <option value="Spalle">Spalle</option>
+              <option value="Quadricipiti">Quadricipiti</option>
+              <option value="Femorali &amp; Glutei">Femorali &amp; Glutei</option>
+              <option value="Polpacci">Polpacci</option>
+              <option value="Bicipiti">Bicipiti</option>
+              <option value="Tricipiti">Tricipiti</option>
+              <option value="Addome &amp; Core">Addome &amp; Core</option>
+              <option value="Altro">Altro</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-400 mb-1">Attrezzo</label>
+            <select id="new-ex-eq" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white outline-none">
+              <option value="Manubri">Manubri</option>
+              <option value="Bilanciere">Bilanciere</option>
+              <option value="Cavi">Cavi</option>
+              <option value="Macchina">Macchina</option>
+              <option value="Multipower">Multipower</option>
+              <option value="Corpo Libero">Corpo Libero</option>
+              <option value="Kettlebell / Altro">Kettlebell / Altro</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-1">Modalità Predefinita</label>
+          <select id="new-ex-uni" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white outline-none">
+            <option value="true">↔️ Monolaterale (Lato SX + Lato DX separati)</option>
+            <option value="false">🏋️ Bilaterale (2 Lati insieme)</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-1">Consigli Tecnici (opzionale)</label>
+          <input id="new-ex-tips" type="text" placeholder="Es. Contrai 1 secondo in picco..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-sm text-white outline-none">
+        </div>
+      </div>
+      <div class="flex gap-2 pt-2">
+        <button onclick="closeNewExModal()" class="flex-1 py-3 rounded-xl bg-slate-800 text-slate-300 font-bold text-sm">Annulla</button>
+        <button onclick="saveNewCustomExercise()" class="flex-1 py-3 rounded-xl bg-emerald-500 text-slate-950 font-extrabold text-sm">Salva Esercizio</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-safari-help" class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-sm items-end sm:items-center justify-center p-0 sm:p-4 flex">
+    <div class="bg-slate-900 border-t sm:border border-slate-800 w-full max-w-lg rounded-t-3xl sm:rounded-3xl max-h-[92vh] flex flex-col overflow-hidden shadow-2xl">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <span class="w-9 h-9 rounded-xl bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-lg">📲</span>
+          <div>
+            <h3 class="font-extrabold text-base text-white">Metti sulla Home di iPhone (Safari)</h3>
+            <p class="text-[11px] text-cyan-400">Perché l'app File blocca Safari e come risolverlo</p>
+          </div>
+        </div>
+        <button onclick="closeSafariInstallModal()" class="w-8 h-8 rounded-xl bg-slate-800 text-slate-300 font-bold">✕</button>
+      </div>
+
+      <div class="flex-1 overflow-y-auto p-4 space-y-4 text-xs text-slate-300">
+        <div class="bg-amber-500/10 border border-amber-500/30 rounded-2xl p-3.5 space-y-1.5">
+          <div class="font-extrabold text-amber-300 text-xs">⚠️ Perché non si apre toccando il file su iPhone?</div>
+          <p class="text-slate-300 leading-relaxed">
+            Su iOS, quando tocchi un file <code class="text-amber-300">.html</code> dentro l'app <strong>File</strong>, Apple NON lo apre nel vero <strong>Safari</strong> ma in un'anteprima bloccata che non permette di fare <em>"Aggiungi alla schermata Home"</em>. Per avere il pulsante <strong>Aggiungi a Home</strong> a tutto schermo, Safari deve aprire un indirizzo <code class="text-emerald-300">https://</code>.
+          </p>
+        </div>
+
+        <div class="bg-slate-950 border border-emerald-500/40 rounded-2xl p-4 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="font-extrabold text-emerald-400 text-sm">✅ Metodo definitivo in 20 secondi (Gratis)</span>
+            <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300">100% Tutto Schermo</span>
+          </div>
+          <ol class="list-decimal list-inside space-y-2 text-slate-200 leading-relaxed">
+            <li>Tocca qui sotto <strong>"1. Scarica File App (.html)"</strong> per salvare il file aggiornato sul telefono.</li>
+            <li>Apri su Safari il sito gratuito <strong><a href="https://tiiny.host" target="_blank" class="text-emerald-400 underline">tiiny.host</a></strong> (oppure <strong><a href="https://app.netlify.com/drop" target="_blank" class="text-emerald-400 underline">app.netlify.com/drop</a></strong>) e carica il file <code class="text-emerald-300">Diario_Palestra_Pro.html</code>.</li>
+            <li>Ti darà subito un link <code class="text-cyan-300">https://...</code> tuo personale: aprilo in <strong>Safari</strong>.</li>
+            <li>Tocca l'icona <strong>Condividi</strong> di Safari (quadrato con freccia in su in basso) → <strong>"Aggiungi alla schermata Home"</strong>.</li>
+          </ol>
+          <button onclick="downloadSelfFile()" class="w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-xs shadow">
+            ⬇️ 1. Scarica File App Aggiornato (.html)
+          </button>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-4 space-y-2.5">
+          <div class="font-extrabold text-cyan-300 text-xs">💾 Salva o Ripristina i tuoi Progressi (Backup)</div>
+          <p class="text-[11px] text-slate-400">
+            I tuoi progressi giornalieri vengono salvati in automatico nel telefono. Con questi pulsanti puoi anche esportare o importare un file con tutti i tuoi carichi:
+          </p>
+          <div class="grid grid-cols-2 gap-2 pt-1">
+            <button onclick="exportJsonBackup()" class="py-2.5 px-3 rounded-xl bg-slate-900 border border-slate-700 text-emerald-300 font-bold text-xs">
+              📤 Esporta Carichi
+            </button>
+            <button onclick="document.getElementById('import-backup-input').click()" class="py-2.5 px-3 rounded-xl bg-slate-900 border border-slate-700 text-cyan-300 font-bold text-xs">
+              📥 Importa Carichi
+            </button>
+            <input id="import-backup-input" type="file" accept=".json,application/json" onchange="importJsonBackup(event)" class="hidden">
+          </div>
+        </div>
+      </div>
+
+      <div class="p-3 border-t border-slate-800 bg-slate-950">
+        <button onclick="closeSafariInstallModal()" class="w-full py-3 rounded-xl bg-slate-800 text-white font-extrabold text-xs">Chiudi</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 px-2 pt-1.5 safe-bottom">
+    <div class="max-w-xl mx-auto grid grid-cols-4 gap-1">
+      <button id="nav-workout" onclick="switchTab('workout')" class="flex flex-col items-center justify-center py-2 rounded-2xl text-emerald-400 bg-emerald-500/10 font-bold">
+        <span class="text-base">🏋️</span><span class="text-[11px]">Allenamento</span>
+      </button>
+      <button id="nav-history" onclick="switchTab('history')" class="flex flex-col items-center justify-center py-2 rounded-2xl text-slate-400">
+        <span class="text-base">📅</span><span class="text-[11px]">Storico</span>
+      </button>
+      <button id="nav-exercises" onclick="switchTab('exercises')" class="flex flex-col items-center justify-center py-2 rounded-2xl text-slate-400">
+        <span class="text-base">🏆</span><span class="text-[11px]">Esercizi</span>
+      </button>
+      <button id="nav-timer" onclick="switchTab('timer')" class="flex flex-col items-center justify-center py-2 rounded-2xl text-slate-400">
+        <span class="text-base">⏱️</span><span class="text-[11px]">Recupero</span>
+      </button>
+    </div>
+  </nav>
+
+  <script>
+    const LS_KEYS = {
+      WORKOUTS: 'diario_palestra_workouts_v5',
+      CUSTOM_EXERCISES: 'diario_palestra_custom_ex_v5',
+      ACTIVE_WORKOUT: 'diario_palestra_active_wk_v5',
+      UNILATERAL_OVERRIDES: 'diario_palestra_uni_v5'
+    };
+
+    function loadMergedWorkouts() {
+      const keys = ['diario_palestra_workouts_v5', 'diario_palestra_workouts_v6', 'diario_palestra_workouts_v2'];
+      const map = new Map();
+      keys.forEach(k => {
+        try {
+          const arr = JSON.parse(localStorage.getItem(k) || '[]');
+          if (Array.isArray(arr)) {
+            arr.forEach(w => {
+              if (w && w.id && !map.has(w.id)) map.set(w.id, w);
+            });
+          }
+        } catch (e) {}
+      });
+      const merged = Array.from(map.values());
+      merged.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+      return merged;
+    }
+
+    const CATEGORIES = ['Tutti', 'Petto', 'Dorso', 'Spalle', 'Quadricipiti', 'Femorali & Glutei', 'Polpacci', 'Bicipiti', 'Tricipiti', 'Addome & Core', 'Altro'];
+    const EQUIPMENTS = ['Tutti', 'Bilanciere', 'Manubri', 'Cavi', 'Macchina', 'Multipower', 'Corpo Libero', 'Kettlebell / Altro'];
+
+    const DEFAULT_EXERCISES = [
+      { id: 'leg_extension', name: 'Leg Extension', category: 'Quadricipiti', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione - Negativa lenta' },
+      { id: 'leg_curl', name: 'Leg Curl sdraiato', category: 'Femorali & Glutei', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione - Negativa lenta' },
+      { id: 'dp_box_squat_mp', name: 'Box Squat (Multipower)', category: 'Quadricipiti', equipment: 'Multipower', unilateral: false, defaultRest: 150, tips: 'F1" sul box - Ultima serie Back off -20%' },
+      { id: 'hip_thrust', name: 'Hip Thrust con Bilanciere', category: 'Femorali & Glutei', equipment: 'Bilanciere', unilateral: false, defaultRest: 150, tips: 'F2" in contrazione - Max estensione anca' },
+      { id: 'adductor_machine', name: 'Adductor Machine', category: 'Femorali & Glutei', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione + F1" in max allungamento' },
+      { id: 'dp_hyperext_bil', name: 'Iperestensioni con Bilanciere', category: 'Femorali & Glutei', equipment: 'Bilanciere', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione - Movimento controllato' },
+      { id: 'dp_crunch_machine', name: 'Crunch Machine', category: 'Addome & Core', equipment: 'Macchina', unilateral: false, defaultRest: 60, tips: 'Movimento controllato - Ultima serie Drop set' },
+      { id: 'dp_pec_fly', name: 'Pec Fly', category: 'Petto', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'F1" in massimo allungamento' },
+      { id: 'spinte_manubri_piana', name: 'Distensioni su panca piana (manubri)', category: 'Petto', equipment: 'Manubri', unilateral: false, defaultRest: 120, tips: 'Movimento controllato - Ultima serie Back off -20%' },
+      { id: 'dp_panca_inc_ss', name: 'Distensioni Panca Inclinata (30°, MP) + Presa Stretta', category: 'Petto', equipment: 'Multipower', unilateral: false, defaultRest: 120, tips: 'F1" al petto (su presa normale)' },
+      { id: 'shoulder_press_machine', name: 'Shoulder Press', category: 'Spalle', equipment: 'Macchina', unilateral: false, defaultRest: 120, tips: 'Ultima serie Back off -20%' },
+      { id: 'dp_alzate_lat_front_ss', name: 'Alzate Laterali Panca 45° + Alzate Frontali Panca 45°', category: 'Spalle', equipment: 'Manubri', unilateral: false, defaultRest: 90, tips: 'Superserie Spalle su panca a 45°' },
+      { id: 'dp_overhead_kickback_vulken', name: 'Overhead Extension (Vulken) + Triceps Kickback (Vulken)', category: 'Tricipiti', equipment: 'Cavi', unilateral: false, defaultRest: 90, tips: 'Superserie Tricipiti con Vulken' },
+      { id: 'dp_leg_raise_ss', name: 'Leg Raise su Panca Inclinata + Leg Raise', category: 'Addome & Core', equipment: 'Corpo Libero', unilateral: false, defaultRest: 60, tips: 'Con spinta di bacino' },
+      { id: 'dp_high_row_mono', name: 'High Row Presa Larga (Monolaterale, Neutra)', category: 'Dorso', equipment: 'Macchina', unilateral: true, defaultRest: 120, tips: 'F1" in contrazione - Max allungamento dorsale' },
+      { id: 'dp_rematore_panca_30', name: 'Rematore Manubrio su Panca (Monolaterale, 30°)', category: 'Dorso', equipment: 'Manubri', unilateral: true, defaultRest: 120, tips: 'Movimento controllato (no slanci)' },
+      { id: 'pulley_basso', name: 'Pulley (triangolo)', category: 'Dorso', equipment: 'Cavi', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione - Accentua flessione di busto' },
+      { id: 'dp_trazioni_pullup_ss', name: 'Trazioni + Pull Up Machine', category: 'Dorso', equipment: 'Corpo Libero', unilateral: false, defaultRest: 120, tips: 'F1" in contrazione + Negativa lenta' },
+      { id: 'dp_preacher_curl_45', name: 'Preacher Curl (Manubrio, 45°)', category: 'Bicipiti', equipment: 'Manubri', unilateral: true, defaultRest: 90, tips: 'Negativa lenta - Max allungamento bicipite' },
+      { id: 'dp_hammer_scott_curl_ss', name: 'Hammer Curl Panca Scott + Curl Machine', category: 'Bicipiti', equipment: 'Manubri', unilateral: false, defaultRest: 90, tips: 'Superserie Bicipiti' },
+      { id: 'dp_crunch_cavo_vulken', name: 'Crunch al Cavo Alto in Ginocchio (Vulken)', category: 'Addome & Core', equipment: 'Cavi', unilateral: false, defaultRest: 60, tips: 'F1" in contrazione' },
+      { id: 'leg_curl_seduto', name: 'Leg Curl (seduto)', category: 'Femorali & Glutei', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'F2" in contrazione - Ultima Drop set' },
+      { id: 'leg_extension_mono', name: 'Leg Extension (monolaterale)', category: 'Quadricipiti', equipment: 'Macchina', unilateral: true, defaultRest: 90, tips: 'F1" in contrazione - Negativa lenta' },
+      { id: 'dp_leg_press_orizz_mono', name: 'Leg Press Orizzontale (Monolaterale)', category: 'Quadricipiti', equipment: 'Macchina', unilateral: true, defaultRest: 120, tips: 'Negativa lenta - Focus massima accosciata' },
+      { id: 'dp_good_morning_rhack', name: 'Good Morning (su Reverse Hack Squat)', category: 'Femorali & Glutei', equipment: 'Macchina', unilateral: false, defaultRest: 120, tips: 'Negativa lenta - Max allungamento femorale' },
+      { id: 'dp_ghd_iso', name: 'Iperestensioni su GHD + Isometria 10"', category: 'Femorali & Glutei', equipment: 'Corpo Libero', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione + 10" isometria' },
+      { id: 'dp_chest_press_inc', name: 'Chest Press (Inclinata)', category: 'Petto', equipment: 'Macchina', unilateral: false, defaultRest: 120, tips: 'Focus max allungamento - Ultima Back off' },
+      { id: 'dp_lat_deltoid_machine', name: 'Lateral Deltoid Machine', category: 'Spalle', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'Movimento controllato - Ultima Drop set' },
+      { id: 'dp_reverse_fly_machine', name: 'Reverse Fly Machine', category: 'Spalle', equipment: 'Macchina', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione - Negativa lenta' },
+      { id: 'dp_lat_machine_corno', name: 'Lat Machine (corno)', category: 'Dorso', equipment: 'Cavi', unilateral: false, defaultRest: 120, tips: 'Ultima serie Back off -20%' },
+      { id: 'dp_row_machine_neutra_mono', name: 'Row Machine Presa Neutra (Monolaterale)', category: 'Dorso', equipment: 'Macchina', unilateral: true, defaultRest: 90, tips: 'F1" in contrazione' },
+      { id: 'french_press', name: 'French Press (bilanciere EZ)', category: 'Tricipiti', equipment: 'Bilanciere', unilateral: false, defaultRest: 90, tips: 'Focus massimo allungamento tricipite' },
+      { id: 'dp_pushdown_curl_ez_ss', name: 'Push Down (Vulken) + Curl al Cavo Basso (Barra EZ)', category: 'Tricipiti', equipment: 'Cavi', unilateral: false, defaultRest: 90, tips: 'F1" in contrazione' },
+      { id: 'panca_piana', name: 'Panca Piana con Bilanciere', category: 'Petto', equipment: 'Bilanciere', unilateral: false, defaultRest: 120, tips: 'Scapole addotte e depresse' },
+      { id: 'squat', name: 'Squat con Bilanciere', category: 'Quadricipiti', equipment: 'Bilanciere', unilateral: false, defaultRest: 150, tips: 'Scendi almeno al parallelo' },
+      { id: 'stacco_rumeno', name: 'Stacco Rumeno con Bilanciere (RDL)', category: 'Femorali & Glutei', equipment: 'Bilanciere', unilateral: false, defaultRest: 120, tips: 'Spingi il bacino indietro' },
+      { id: 'lat_machine', name: 'Lat Machine Avanti Presa Larga', category: 'Dorso', equipment: 'Cavi', unilateral: false, defaultRest: 90, tips: 'Porta la sbarra allo sterno' },
+      { id: 'rematore_bilanciere', name: 'Rematore con Bilanciere', category: 'Dorso', equipment: 'Bilanciere', unilateral: false, defaultRest: 120, tips: 'Schiena neutra a 45°' },
+      { id: 'military_press', name: 'Military Press in Piedi', category: 'Spalle', equipment: 'Bilanciere', unilateral: false, defaultRest: 120, tips: 'Glutei e addome contratti' },
+      { id: 'alzate_laterali', name: 'Alzate Laterali con Manubri', category: 'Spalle', equipment: 'Manubri', unilateral: false, defaultRest: 60, tips: 'Spingi lontano verso i lati' },
+      { id: 'curl_bilanciere', name: 'Curl con Bilanciere EZ', category: 'Bicipiti', equipment: 'Bilanciere', unilateral: false, defaultRest: 90, tips: 'Gomiti fermi lungo i fianchi' },
+      { id: 'curl_manubri', name: 'Curl Alternato con Manubri', category: 'Bicipiti', equipment: 'Manubri', unilateral: true, defaultRest: 60, tips: 'Supinazione completa' },
+      { id: 'pushdown_cavo', name: 'Pushdown al Cavo con Corda', category: 'Tricipiti', equipment: 'Cavi', unilateral: false, defaultRest: 60, tips: 'Apri la corda in basso' },
+      { id: 'leg_press', name: 'Leg Press 45°', category: 'Quadricipiti', equipment: 'Macchina', unilateral: false, defaultRest: 120, tips: 'Non staccare il bacino' },
+      { id: 'bulgarian_split_squat', name: 'Affondi Bulgari con Manubri', category: 'Quadricipiti', equipment: 'Manubri', unilateral: true, defaultRest: 90, tips: 'Piede posteriore su panca' },
+      { id: 'calf_raise', name: 'Calf Raise in Piedi', category: 'Polpacci', equipment: 'Macchina', unilateral: false, defaultRest: 60, tips: 'Fermo in allungamento e in punta' }
+    ];
+
+    const PRESET_TEMPLATES = [
+      {
+        id: 'dp_giorno_1',
+        name: '🔥 Giorno 1 (Legs) - Scheda Daniele',
+        subtitle: 'Coach Gianmarco Mattia • 7 Esercizi',
+        exercises: ['leg_extension', 'leg_curl', 'dp_box_squat_mp', 'hip_thrust', 'adductor_machine', 'dp_hyperext_bil', 'dp_crunch_machine'],
+        planDetails: [
+          { exId: 'leg_extension', setsCount: 4, reps: '8', lastSetType: 'D', rest: 90, unilateral: false, note: '7/8x3/4s • F1" in contrazione - Negativa lenta - Ultima Drop set' },
+          { exId: 'leg_curl', setsCount: 3, reps: '8', lastSetType: 'N', rest: 90, unilateral: false, note: '6/8x3s • F1" in contrazione - Negativa lenta' },
+          { exId: 'dp_box_squat_mp', setsCount: 4, reps: '7', lastSetType: 'D', rest: 150, unilateral: false, note: '6/7x3/4s • F1" sul box - Ultima Back off -20%' },
+          { exId: 'hip_thrust', setsCount: 4, reps: '8', lastSetType: 'D', rest: 150, unilateral: false, note: '6/8x3/4s • F2" in contrazione - Max estensione' },
+          { exId: 'adductor_machine', setsCount: 3, reps: '10', lastSetType: 'N', rest: 90, unilateral: false, note: '8/10x3s • F1" contrazione + F1" allungamento' },
+          { exId: 'dp_hyperext_bil', setsCount: 4, reps: '8', lastSetType: 'N', rest: 90, unilateral: false, note: '7/10x3/4s • F1" in contrazione - Controllato' },
+          { exId: 'dp_crunch_machine', setsCount: 3, reps: '12', lastSetType: 'D', rest: 60, unilateral: false, note: '10/15x3s • Movimento controllato - Drop set' }
+        ]
+      },
+      {
+        id: 'dp_giorno_2',
+        name: '🔥 Giorno 2 (Push) - Scheda Daniele',
+        subtitle: 'Coach Gianmarco Mattia • 7 Esercizi/SS',
+        exercises: ['dp_pec_fly', 'spinte_manubri_piana', 'dp_panca_inc_ss', 'shoulder_press_machine', 'dp_alzate_lat_front_ss', 'dp_overhead_kickback_vulken', 'dp_leg_raise_ss'],
+        planDetails: [
+          { exId: 'dp_pec_fly', setsCount: 3, reps: '9', lastSetType: 'N', rest: 90, unilateral: false, note: '8/10x3s • F1" in massimo allungamento' },
+          { exId: 'spinte_manubri_piana', setsCount: 4, reps: '7', lastSetType: 'D', rest: 120, unilateral: false, note: '6/7x3/4s • Controllato - Ultima Back off -20%' },
+          { exId: 'dp_panca_inc_ss', setsCount: 3, reps: '7+8', lastSetType: 'N', rest: 120, unilateral: false, note: '6/8 + 7/10 x 3s • Panca Inclinata MP + Presa Stretta' },
+          { exId: 'shoulder_press_machine', setsCount: 4, reps: '7', lastSetType: 'D', rest: 120, unilateral: false, note: '6/8x3/4s • Ultima Back off -20%' },
+          { exId: 'dp_alzate_lat_front_ss', setsCount: 3, reps: '8+7', lastSetType: 'N', rest: 90, unilateral: false, note: '7/10 + 6/8 x 3s • Alzate Laterali + Frontali su panca 45°' },
+          { exId: 'dp_overhead_kickback_vulken', setsCount: 4, reps: '7+7', lastSetType: 'N', rest: 90, unilateral: false, note: '6/8 + 6/8 x 4s • Overhead Ext + Kickback (Vulken)' },
+          { exId: 'dp_leg_raise_ss', setsCount: 3, reps: '12', lastSetType: 'C', rest: 60, unilateral: false, note: '8/15 + Max x 3s • Leg Raise su panca + Leg Raise' }
+        ]
+      },
+      {
+        id: 'dp_giorno_3',
+        name: '🔥 Giorno 3 (Pull) - Scheda Daniele',
+        subtitle: 'Coach Gianmarco Mattia • 7 Esercizi (SX+DX)',
+        exercises: ['dp_high_row_mono', 'dp_rematore_panca_30', 'pulley_basso', 'dp_trazioni_pullup_ss', 'dp_preacher_curl_45', 'dp_hammer_scott_curl_ss', 'dp_crunch_cavo_vulken'],
+        planDetails: [
+          { exId: 'dp_high_row_mono', setsCount: 4, reps: '7', lastSetType: 'D', rest: 120, unilateral: true, note: '6/8x3/4s • Monolaterale neutra • F1" contrazione - Ultima Back off' },
+          { exId: 'dp_rematore_panca_30', setsCount: 4, reps: '7', lastSetType: 'D', rest: 120, unilateral: true, note: '6/7x3/4s • Monolaterale panca 30° - Ultima Back off' },
+          { exId: 'pulley_basso', setsCount: 3, reps: '7', lastSetType: 'N', rest: 90, unilateral: false, note: '6/8x3s • F1" in contrazione' },
+          { exId: 'dp_trazioni_pullup_ss', setsCount: 3, reps: '6', lastSetType: 'C', rest: 120, unilateral: false, note: '5/8 + Max x 3s • Trazioni + Pull Up Machine' },
+          { exId: 'dp_preacher_curl_45', setsCount: 4, reps: '7', lastSetType: 'N', rest: 90, unilateral: true, note: '6/8x4s • Preacher Curl 45° (Monolaterale)' },
+          { exId: 'dp_hammer_scott_curl_ss', setsCount: 3, reps: '7+7', lastSetType: 'N', rest: 90, unilateral: false, note: '6/8 + 6/8 x 3s • Hammer Scott + Curl Machine' },
+          { exId: 'dp_crunch_cavo_vulken', setsCount: 3, reps: '15', lastSetType: 'N', rest: 60, unilateral: false, note: '12/18x3s • Crunch al cavo alto in ginocchio' }
+        ]
+      },
+      {
+        id: 'dp_giorno_4',
+        name: '🔥 Giorno 4 (Legs) - Scheda Daniele',
+        subtitle: 'Coach Gianmarco Mattia • 6 Esercizi (SX+DX)',
+        exercises: ['leg_curl_seduto', 'leg_extension_mono', 'dp_leg_press_orizz_mono', 'dp_good_morning_rhack', 'hip_thrust', 'dp_ghd_iso'],
+        planDetails: [
+          { exId: 'leg_curl_seduto', setsCount: 3, reps: '8', lastSetType: 'D', rest: 90, unilateral: false, note: '7/10x3s • F2" in contrazione - Drop set' },
+          { exId: 'leg_extension_mono', setsCount: 3, reps: '8', lastSetType: 'N', rest: 90, unilateral: true, note: '7/8x3s • Monolaterale • F1" contrazione - Negativa lenta' },
+          { exId: 'dp_leg_press_orizz_mono', setsCount: 4, reps: '7', lastSetType: 'N', rest: 120, unilateral: true, note: '6/8x3/4s • Monolaterale • Negativa lenta' },
+          { exId: 'dp_good_morning_rhack', setsCount: 3, reps: '9', lastSetType: 'N', rest: 120, unilateral: false, note: '8/10x3s • Good Morning su Reverse Hack Squat' },
+          { exId: 'hip_thrust', setsCount: 4, reps: '8', lastSetType: 'D', rest: 150, unilateral: false, note: '6/8x3/4s • F2" contrazione - Ultima Back off' },
+          { exId: 'dp_ghd_iso', setsCount: 4, reps: '10', lastSetType: 'N', rest: 90, unilateral: false, note: '8/12 + 10" x 3/4s • F1" + 10" isometria' }
+        ]
+      },
+      {
+        id: 'dp_giorno_5',
+        name: '🔥 Giorno 5 (Upper) - Scheda Daniele',
+        subtitle: 'Coach Gianmarco Mattia • 7 Esercizi',
+        exercises: ['dp_chest_press_inc', 'dp_lat_deltoid_machine', 'dp_reverse_fly_machine', 'dp_lat_machine_corno', 'dp_row_machine_neutra_mono', 'french_press', 'dp_pushdown_curl_ez_ss'],
+        planDetails: [
+          { exId: 'dp_chest_press_inc', setsCount: 4, reps: '7', lastSetType: 'D', rest: 120, unilateral: false, note: '6/8x3/4s • Focus max allungamento - Ultima Back off' },
+          { exId: 'dp_lat_deltoid_machine', setsCount: 3, reps: '8', lastSetType: 'D', rest: 90, unilateral: false, note: '7/10x3s • Controllato - Drop set' },
+          { exId: 'dp_reverse_fly_machine', setsCount: 4, reps: '8', lastSetType: 'N', rest: 90, unilateral: false, note: '7/10x3/4s • F1" in contrazione - Negativa lenta' },
+          { exId: 'dp_lat_machine_corno', setsCount: 3, reps: '7', lastSetType: 'D', rest: 120, unilateral: false, note: '6/8x3s • Ultima Back off -20%' },
+          { exId: 'dp_row_machine_neutra_mono', setsCount: 3, reps: '7', lastSetType: 'N', rest: 90, unilateral: true, note: '6/8x3s • Monolaterale neutra • F1" contrazione' },
+          { exId: 'french_press', setsCount: 4, reps: '7', lastSetType: 'N', rest: 90, unilateral: false, note: '6/8x3/4s • Bilanciere EZ • Max allungamento tricipite' },
+          { exId: 'dp_pushdown_curl_ez_ss', setsCount: 3, reps: '8+8', lastSetType: 'N', rest: 90, unilateral: false, note: '7/10 + 7/10 x 3s • Push Down + Curl Cavo Basso EZ' }
+        ]
+      }
+    ];
+
+    let state = {
+      tab: 'workout',
+      workouts: loadMergedWorkouts(),
+      customExercises: JSON.parse(localStorage.getItem(LS_KEYS.CUSTOM_EXERCISES) || '[]'),
+      activeWorkout: JSON.parse(localStorage.getItem(LS_KEYS.ACTIVE_WORKOUT) || 'null'),
+      uniOverrides: JSON.parse(localStorage.getItem(LS_KEYS.UNILATERAL_OVERRIDES) || '{}'),
+      selectedCategory: 'Tutti',
+      selectedEquipment: 'Tutti',
+      onlyUni: false,
+      searchExTab: '',
+      soundEnabled: true,
+      restRemaining: 0,
+      restEndTime: null
+    };
+
+    function saveState() {
+      try {
+        localStorage.setItem(LS_KEYS.WORKOUTS, JSON.stringify(state.workouts));
+        localStorage.setItem('diario_palestra_workouts_v6', JSON.stringify(state.workouts));
+        localStorage.setItem(LS_KEYS.CUSTOM_EXERCISES, JSON.stringify(state.customExercises));
+        localStorage.setItem(LS_KEYS.UNILATERAL_OVERRIDES, JSON.stringify(state.uniOverrides));
+        if (state.activeWorkout) {
+          localStorage.setItem(LS_KEYS.ACTIVE_WORKOUT, JSON.stringify(state.activeWorkout));
+        } else {
+          localStorage.removeItem(LS_KEYS.ACTIVE_WORKOUT);
+        }
+      } catch (e) {}
+    }
+
+    function getAllExercises() {
+      const merged = DEFAULT_EXERCISES.map(ex => ({
+        ...ex,
+        unilateral: state.uniOverrides[ex.id] !== undefined ? Boolean(state.uniOverrides[ex.id]) : Boolean(ex.unilateral)
+      }));
+      const customs = state.customExercises.map(ex => ({
+        ...ex,
+        unilateral: state.uniOverrides[ex.id] !== undefined ? Boolean(state.uniOverrides[ex.id]) : Boolean(ex.unilateral)
+      }));
+      return [...merged, ...customs];
+    }
+
+    function getLastSessionInfoForExercise(exId) {
+      for (let i = 0; i < state.workouts.length; i++) {
+        const wk = state.workouts[i];
+        if (!wk || !Array.isArray(wk.exercises)) continue;
+        const found = wk.exercises.find(e => e.exerciseId === exId);
+        if (found && Array.isArray(found.sets) && found.sets.length > 0) {
+          return {
+            date: wk.date,
+            workoutName: wk.name,
+            unilateral: Boolean(found.unilateral),
+            sets: found.sets
+          };
+        }
+      }
+      return null;
+    }
+
+    function getLastSetsForExercise(exId) {
+      const info = getLastSessionInfoForExercise(exId);
+      return info ? info.sets : null;
+    }
+
+    function getLastTemplateSession(tpl) {
+      for (let i = 0; i < state.workouts.length; i++) {
+        const wk = state.workouts[i];
+        if (!wk) continue;
+        if (wk.templateId === tpl.id || wk.name === tpl.name) {
+          return wk;
+        }
+      }
+      return null;
+    }
+
+    function formatSingleSetSummary(s, isUni) {
+      if (!s) return '-';
+      if (isUni) {
+        const wL = s.weightL !== undefined && s.weightL !== '' ? s.weightL : (s.weight || '0');
+        const rL = s.repsL !== undefined && s.repsL !== '' ? s.repsL : (s.reps || '0');
+        const wR = s.weightR !== undefined && s.weightR !== '' ? s.weightR : (s.weight || '0');
+        const rR = s.repsR !== undefined && s.repsR !== '' ? s.repsR : (s.reps || '0');
+        return `SX ${wL}kg×${rL} | DX ${wR}kg×${rR}`;
+      }
+      const w = s.weight !== undefined && s.weight !== '' ? s.weight : (s.weightL || '0');
+      const r = s.reps !== undefined && s.reps !== '' ? s.reps : (s.repsL || '0');
+      return `${w}kg × ${r}`;
+    }
+
+    function formatTime(sec) {
+      const hrs = Math.floor(sec / 3600);
+      const mins = Math.floor((sec % 3600) / 60);
+      const s = sec % 60;
+      if (hrs > 0) return `${hrs}h ${mins}m ${s}s`;
+      return `${String(mins).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
+    function showToast(msg) {
+      const box = document.getElementById('toast-box');
+      const txt = document.getElementById('toast-text');
+      if (!box || !txt) return;
+      txt.textContent = msg;
+      box.classList.remove('hidden');
+      setTimeout(() => box.classList.add('hidden'), 2800);
+    }
+
+    function playBeep() {
+      if (!state.soundEnabled) return;
+      try {
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        if (!AudioCtx) return;
+        const ctx = new AudioCtx();
+        const tone = (freq, start, dur) => {
+          const osc = ctx.createOscillator();
+          const g = ctx.createGain();
+          osc.frequency.setValueAtTime(freq, start);
+          g.gain.setValueAtTime(0.25, start);
+          g.gain.exponentialRampToValueAtTime(0.001, start + dur);
+          osc.connect(g);
+          g.connect(ctx.destination);
+          osc.start(start);
+          osc.stop(start + dur);
+        };
+        const now = ctx.currentTime;
+        tone(587.33, now, 0.15);
+        tone(587.33, now + 0.2, 0.15);
+        tone(880, now + 0.4, 0.45);
+      } catch (e) {}
+    }
+
+    function toggleSound() {
+      state.soundEnabled = !state.soundEnabled;
+      const btn = document.getElementById('btn-sound');
+      if (btn) btn.textContent = state.soundEnabled ? '🔊' : '🔇';
+      showToast(state.soundEnabled ? 'Audio Timer Attivo' : 'Audio Timer Disattivato');
+    }
+
+    function startRest(seconds = 90) {
+      const s = Math.max(5, parseInt(seconds, 10) || 90);
+      state.restRemaining = s;
+      state.restEndTime = Date.now() + s * 1000;
+      updateRestUI();
+    }
+
+    function adjustRest(delta) {
+      if (state.restEndTime) {
+        state.restEndTime += delta * 1000;
+        state.restRemaining = Math.max(0, Math.ceil((state.restEndTime - Date.now()) / 1000));
+      } else {
+        state.restRemaining = Math.max(0, state.restRemaining + delta);
+        if (state.restRemaining > 0) state.restEndTime = Date.now() + state.restRemaining * 1000;
+      }
+      updateRestUI();
+    }
+
+    function stopRest() {
+      state.restRemaining = 0;
+      state.restEndTime = null;
+      updateRestUI();
+    }
+
+    function updateRestUI() {
+      const bar = document.getElementById('floating-rest-bar');
+      const timeEl = document.getElementById('floating-rest-time');
+      const bigDisplay = document.getElementById('timer-big-display');
+      if (timeEl) timeEl.textContent = formatTime(state.restRemaining);
+      if (bigDisplay) bigDisplay.textContent = formatTime(state.restRemaining);
+      if (bar) {
+        if (state.restRemaining > 0 && state.tab !== 'timer') {
+          bar.classList.remove('hidden');
+        } else {
+          bar.classList.add('hidden');
+        }
+      }
+    }
+
+    setInterval(() => {
+      const chronoWrap = document.getElementById('header-chrono');
+      const chronoTxt = document.getElementById('header-chrono-text');
+      if (state.activeWorkout && state.activeWorkout.startTime) {
+        const elapsed = Math.max(0, Math.floor((Date.now() - state.activeWorkout.startTime) / 1000));
+        if (chronoWrap) {
+          chronoWrap.classList.remove('hidden');
+          chronoWrap.classList.add('flex');
+        }
+        if (chronoTxt) chronoTxt.textContent = formatTime(elapsed);
+      } else if (chronoWrap) {
+        chronoWrap.classList.add('hidden');
+      }
+
+      if (state.restEndTime) {
+        const rem = Math.ceil((state.restEndTime - Date.now()) / 1000);
+        if (rem <= 0) {
+          state.restRemaining = 0;
+          state.restEndTime = null;
+          playBeep();
+          showToast('Recupero terminato! Sotto con la prossima serie 💪');
+        } else {
+          state.restRemaining = rem;
+        }
+        updateRestUI();
+      }
+    }, 500);
+
+    function switchTab(tabName) {
+      state.tab = tabName;
+      ['workout', 'history', 'exercises', 'timer'].forEach(t => {
+        const view = document.getElementById(`view-${t}`);
+        const nav = document.getElementById(`nav-${t}`);
+        if (view) view.classList.toggle('hidden', t !== tabName);
+        if (nav) {
+          nav.className = t === tabName
+            ? 'flex flex-col items-center justify-center py-2 rounded-2xl text-emerald-400 bg-emerald-500/10 font-bold'
+            : 'flex flex-col items-center justify-center py-2 rounded-2xl text-slate-400';
+        }
+      });
+      updateRestUI();
+      renderCurrentTab();
+    }
+
+    function renderCurrentTab() {
+      if (state.tab === 'workout') renderWorkoutView();
+      else if (state.tab === 'history') renderHistoryView();
+      else if (state.tab === 'exercises') renderExercisesView();
+      else if (state.tab === 'timer') renderTimerView();
+    }
+
+    function startEmptyWorkout() {
+      const today = new Date().toLocaleDateString('it-IT', { day: 'numeric', month: 'short' });
+      state.activeWorkout = {
+        name: `Allenamento del ${today}`,
+        startTime: Date.now(),
+        exercises: []
+      };
+      saveState();
+      renderWorkoutView();
+    }
+
+    function startPresetWorkout(tplId) {
+      const all = getAllExercises();
+      const tpl = PRESET_TEMPLATES.find(t => t.id === tplId);
+      if (!tpl) return;
+      const exBlocks = tpl.exercises.map((exId, idx) => {
+        const found = all.find(e => e.id === exId) || { id: exId, name: exId, category: 'Altro', equipment: 'Manubri', unilateral: false, defaultRest: 90 };
+        const plan = tpl.planDetails ? (tpl.planDetails[idx] || tpl.planDetails.find(p => p.exId === exId)) : null;
+        const setsCount = plan?.setsCount || 3;
+        const defaultReps = plan?.reps || '10';
+        const isUni = plan?.unilateral !== undefined ? Boolean(plan.unilateral) : Boolean(found.unilateral);
+
+        const lastInfo = getLastSessionInfoForExercise(found.id);
+        const lastSets = lastInfo ? lastInfo.sets : null;
+        const targetCount = Math.max(setsCount, lastSets ? lastSets.length : 0);
+
+        const generatedSets = Array.from({ length: targetCount }, (_, sIdx) => {
+          const prev = lastSets ? (lastSets[sIdx] || lastSets[lastSets.length - 1]) : null;
+          const prevW = prev ? (prev.weight !== undefined && prev.weight !== '' ? String(prev.weight) : String(prev.weightL || '')) : '';
+          const prevR = prev ? (prev.reps !== undefined && prev.reps !== '' ? String(prev.reps) : String(prev.repsL || defaultReps)) : defaultReps;
+          const prevWL = prev ? (prev.weightL !== undefined && prev.weightL !== '' ? String(prev.weightL) : prevW) : '';
+          const prevRL = prev ? (prev.repsL !== undefined && prev.repsL !== '' ? String(prev.repsL) : prevR) : defaultReps;
+          const prevWR = prev ? (prev.weightR !== undefined && prev.weightR !== '' ? String(prev.weightR) : prevW) : '';
+          const prevRR = prev ? (prev.repsR !== undefined && prev.repsR !== '' ? String(prev.repsR) : prevR) : defaultReps;
+
+          return {
+            id: `s${sIdx + 1}_` + Math.random(),
+            weight: prevW,
+            reps: prevR,
+            weightL: prevWL,
+            repsL: prevRL,
+            weightR: prevWR,
+            repsR: prevRR,
+            prevSummary: prev ? formatSingleSetSummary(prev, isUni) : null,
+            setType: (sIdx === targetCount - 1 && plan?.lastSetType) ? plan.lastSetType : (prev?.setType || 'N'),
+            completed: false
+          };
+        });
+
+        return {
+          instanceId: `${found.id}_${Date.now()}_${Math.random()}`,
+          exerciseId: found.id,
+          name: found.name,
+          category: found.category,
+          equipment: found.equipment,
+          unilateral: isUni,
+          restTime: plan?.rest || found.defaultRest || 90,
+          notes: plan?.note || found.tips || '',
+          sets: generatedSets
+        };
+      });
+      state.activeWorkout = {
+        templateId: tpl.id,
+        name: tpl.name,
+        startTime: Date.now(),
+        exercises: exBlocks
+      };
+      saveState();
+      renderWorkoutView();
+      showToast('Scheda avviata con i carichi della settimana scorsa già caricati! 💪');
+    }
+
+    function applyLastSessionToExerciseBlock(instanceId) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block) return;
+      const lastSets = getLastSetsForExercise(block.exerciseId);
+      if (!lastSets || lastSets.length === 0) {
+        showToast('Nessuna sessione precedente trovata per questo esercizio');
+        return;
+      }
+      block.sets = block.sets.map((s, idx) => {
+        const prev = lastSets[idx] || lastSets[lastSets.length - 1];
+        if (!prev) return s;
+        const w = prev.weight !== undefined && prev.weight !== '' ? String(prev.weight) : String(prev.weightL || '');
+        const r = prev.reps !== undefined && prev.reps !== '' ? String(prev.reps) : String(prev.repsL || s.reps);
+        return {
+          ...s,
+          weight: w,
+          reps: r,
+          weightL: prev.weightL !== undefined && prev.weightL !== '' ? String(prev.weightL) : w,
+          repsL: prev.repsL !== undefined && prev.repsL !== '' ? String(prev.repsL) : r,
+          weightR: prev.weightR !== undefined && prev.weightR !== '' ? String(prev.weightR) : w,
+          repsR: prev.repsR !== undefined && prev.repsR !== '' ? String(prev.repsR) : r
+        };
+      });
+      saveState();
+      renderWorkoutView();
+      showToast('Carichi della settimana scorsa ricopiati nelle serie!');
+    }
+
+    function addExerciseToActive(exId, forceUni = null) {
+      const all = getAllExercises();
+      const found = all.find(e => e.id === exId);
+      if (!found) return;
+      const isUni = forceUni !== null ? Boolean(forceUni) : Boolean(found.unilateral);
+
+      if (!state.activeWorkout) {
+        startEmptyWorkout();
+      }
+
+      const lastSets = getLastSetsForExercise(found.id);
+      let newSets;
+      if (lastSets && lastSets.length > 0) {
+        newSets = lastSets.map((s, sIdx) => {
+          const w = s.weight !== undefined && s.weight !== '' ? String(s.weight) : String(s.weightL || '');
+          const r = s.reps !== undefined && s.reps !== '' ? String(s.reps) : String(s.repsL || '10');
+          return {
+            id: `s${sIdx + 1}_` + Math.random(),
+            weight: w,
+            reps: r,
+            weightL: s.weightL !== undefined && s.weightL !== '' ? String(s.weightL) : w,
+            repsL: s.repsL !== undefined && s.repsL !== '' ? String(s.repsL) : r,
+            weightR: s.weightR !== undefined && s.weightR !== '' ? String(s.weightR) : w,
+            repsR: s.repsR !== undefined && s.repsR !== '' ? String(s.repsR) : r,
+            setType: s.setType || 'N',
+            completed: false
+          };
+        });
+      } else {
+        newSets = [
+          { id: 's1_' + Math.random(), weight: '', reps: '10', weightL: '', repsL: '10', weightR: '', repsR: '10', setType: 'N', completed: false },
+          { id: 's2_' + Math.random(), weight: '', reps: '10', weightL: '', repsL: '10', weightR: '', repsR: '10', setType: 'N', completed: false },
+          { id: 's3_' + Math.random(), weight: '', reps: '10', weightL: '', repsL: '10', weightR: '', repsR: '10', setType: 'N', completed: false }
+        ];
+      }
+
+      state.activeWorkout.exercises.push({
+        instanceId: `${found.id}_${Date.now()}_${Math.random()}`,
+        exerciseId: found.id,
+        name: found.name,
+        category: found.category,
+        equipment: found.equipment || 'Altro',
+        unilateral: isUni,
+        restTime: found.defaultRest || 90,
+        notes: found.tips || '',
+        sets: newSets
+      });
+
+      saveState();
+      closePickerModal();
+      switchTab('workout');
+      showToast(`${found.name} aggiunto con i carichi precedenti!`);
+    }
+
+    function toggleBlockUnilateral(instanceId, targetUni) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block) return;
+      block.unilateral = Boolean(targetUni);
+      block.sets.forEach(s => {
+        if (block.unilateral) {
+          if (!s.weightL && s.weight) s.weightL = s.weight;
+          if (!s.weightR && s.weight) s.weightR = s.weight;
+          if (!s.repsL && s.reps) s.repsL = s.reps;
+          if (!s.repsR && s.reps) s.repsR = s.reps;
+        } else {
+          if (!s.weight && s.weightL) s.weight = s.weightL;
+          if (!s.reps && s.repsL) s.reps = s.repsL;
+        }
+      });
+      saveState();
+      renderWorkoutView();
+    }
+
+    function updateSetVal(instanceId, setId, field, val) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block) return;
+      const s = block.sets.find(st => st.id === setId);
+      if (!s) return;
+      const prevL = s.weightL;
+      const prevRepsL = s.repsL;
+      s[field] = val;
+      if (field === 'weightL' && (!s.weightR || s.weightR === prevL)) {
+        s.weightR = val;
+        const rInput = document.getElementById(`input-wR-${setId}`);
+        if (rInput) rInput.value = val;
+      }
+      if (field === 'repsL' && (!s.repsR || s.repsR === prevRepsL)) {
+        s.repsR = val;
+        const rInput = document.getElementById(`input-rR-${setId}`);
+        if (rInput) rInput.value = val;
+      }
+      saveState();
+    }
+
+    function copyLeftToRight(instanceId, setId) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block) return;
+      const s = block.sets.find(st => st.id === setId);
+      if (!s) return;
+      s.weightR = s.weightL;
+      s.repsR = s.repsL;
+      saveState();
+      renderWorkoutView();
+      showToast('Valori SX copiati su DX!');
+    }
+
+    function toggleSetDone(instanceId, setId) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block) return;
+      const s = block.sets.find(st => st.id === setId);
+      if (!s) return;
+      s.completed = !s.completed;
+      if (s.completed) startRest(block.restTime || 90);
+      saveState();
+      renderWorkoutView();
+    }
+
+    function addSet(instanceId) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block) return;
+      const last = block.sets[block.sets.length - 1] || { weight: '', reps: '10', weightL: '', repsL: '10', weightR: '', repsR: '10' };
+      block.sets.push({
+        id: 's_' + Date.now() + '_' + Math.random(),
+        weight: last.weight,
+        reps: last.reps,
+        weightL: last.weightL,
+        repsL: last.repsL,
+        weightR: last.weightR,
+        repsR: last.repsR,
+        setType: 'N',
+        completed: false
+      });
+      saveState();
+      renderWorkoutView();
+    }
+
+    function removeSet(instanceId, setId) {
+      if (!state.activeWorkout) return;
+      const block = state.activeWorkout.exercises.find(x => x.instanceId === instanceId);
+      if (!block || block.sets.length <= 1) return;
+      block.sets = block.sets.filter(s => s.id !== setId);
+      saveState();
+      renderWorkoutView();
+    }
+
+    function removeExerciseBlock(instanceId) {
+      if (!state.activeWorkout) return;
+      state.activeWorkout.exercises = state.activeWorkout.exercises.filter(x => x.instanceId !== instanceId);
+      saveState();
+      renderWorkoutView();
+    }
+
+    function finishAndSaveWorkout() {
+      if (!state.activeWorkout) return;
+      let totalVol = 0;
+      let totalSets = 0;
+
+      const cleaned = state.activeWorkout.exercises.map(ex => {
+        const validSets = ex.sets.filter(s => {
+          if (s.completed) return true;
+          if (ex.unilateral) return (parseFloat(s.weightL) > 0 || parseFloat(s.weightR) > 0);
+          return parseFloat(s.weight) > 0;
+        }).map(s => ({
+          ...s,
+          completed: true
+        }));
+        validSets.forEach(s => {
+          totalSets++;
+          if (ex.unilateral) {
+            totalVol += (parseFloat(s.weightL) || 0) * (parseInt(s.repsL, 10) || 0) + (parseFloat(s.weightR) || 0) * (parseInt(s.repsR, 10) || 0);
+          } else {
+            totalVol += (parseFloat(s.weight) || 0) * (parseInt(s.reps, 10) || 0);
+          }
+        });
+        return { ...ex, sets: validSets };
+      }).filter(ex => ex.sets.length > 0);
+
+      if (cleaned.length === 0) {
+        showToast('Completa almeno una serie o inserisci un peso prima di salvare!');
+        return;
+      }
+
+      const elapsed = Math.max(0, Math.floor((Date.now() - state.activeWorkout.startTime) / 1000));
+      state.workouts.unshift({
+        id: 'wk_' + Date.now(),
+        templateId: state.activeWorkout.templateId || null,
+        name: state.activeWorkout.name || 'Allenamento',
+        date: new Date().toISOString(),
+        durationSeconds: elapsed,
+        totalVolume: Math.round(totalVol),
+        totalSets,
+        exercises: cleaned
+      });
+
+      state.activeWorkout = null;
+      stopRest();
+      saveState();
+      switchTab('history');
+      showToast('Progressi salvati! La prossima settimana partirai da questi carichi 🏆');
+    }
+
+    function cancelActiveWorkout() {
+      state.activeWorkout = null;
+      stopRest();
+      saveState();
+      renderWorkoutView();
+      showToast('Allenamento annullato');
+    }
+
+    function renderWorkoutView() {
+      const container = document.getElementById('view-workout');
+      if (!container) return;
+
+      if (!state.activeWorkout) {
+        let totalVol = 0, totalSets = 0;
+        state.workouts.forEach(w => { totalVol += w.totalVolume || 0; totalSets += w.totalSets || 0; });
+
+        container.innerHTML = `
+          <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950/60 border border-slate-800 rounded-3xl p-5 shadow-xl space-y-3.5">
+            <div class="flex items-start justify-between gap-2">
+              <div>
+                <span class="inline-block text-[11px] font-extrabold uppercase tracking-wider text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full mb-1.5">🔥 Sala Pesi • Memoria Attiva</span>
+                <h2 class="text-xl sm:text-2xl font-extrabold text-white">Inizia ad Allenarti</h2>
+                <p class="text-xs text-slate-300 mt-1">Quando apri un Giorno, trovi <strong>già elencati e pre-inseriti i Kg e le ripetizioni</strong> della settimana scorsa.</p>
+              </div>
+            </div>
+            <button onclick="startEmptyWorkout()" class="w-full py-3.5 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold rounded-2xl shadow-lg text-sm">
+              + Inizia Allenamento Libero Vuoto
+            </button>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2.5">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 text-center">
+              <div class="text-[11px] text-slate-400">Sessioni Fatte</div>
+              <div class="text-xl font-extrabold text-white mt-0.5">${state.workouts.length}</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 text-center">
+              <div class="text-[11px] text-slate-400">Serie Totali</div>
+              <div class="text-xl font-extrabold text-emerald-400 mt-0.5">${totalSets}</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 text-center">
+              <div class="text-[11px] text-slate-400">Volume (Kg)</div>
+              <div class="text-xl font-extrabold text-cyan-300 mt-0.5">${totalVol > 1000 ? (totalVol / 1000).toFixed(1) + 'k' : totalVol}</div>
+            </div>
+          </div>
+
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs font-extrabold uppercase tracking-wider text-emerald-400">📋 Scheda Daniele Proietti (Tocca il giorno da ripetere)</h3>
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">5 Giorni</span>
+            </div>
+            ${PRESET_TEMPLATES.map(t => {
+              const lastWk = getLastTemplateSession(t);
+              const lastDateStr = lastWk ? new Date(lastWk.date).toLocaleDateString('it-IT', { day: 'numeric', month: 'short' }) : null;
+              const savedExCount = t.exercises.filter(exId => getLastSetsForExercise(exId) !== null).length;
+              return `
+                <div onclick="startPresetWorkout('${t.id}')" class="bg-slate-900 hover:bg-slate-800/90 border ${savedExCount > 0 ? 'border-emerald-500/50' : 'border-slate-800'} rounded-2xl p-4 cursor-pointer shadow-md space-y-2 transition">
+                  <div class="flex items-center justify-between gap-2">
+                    <div>
+                      <div class="font-extrabold text-white text-sm sm:text-base">${t.name}</div>
+                      <div class="text-xs text-slate-400 mt-0.5">${t.subtitle}</div>
+                    </div>
+                    <span class="px-3 py-2 rounded-xl bg-emerald-500 text-slate-950 font-black text-xs shrink-0 shadow">APRI ▶</span>
+                  </div>
+                  ${savedExCount > 0 ? `
+                    <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-[11px]">
+                      <span class="text-emerald-400 font-bold">✅ Carichi salvati pronti (${savedExCount}/${t.exercises.length} esercizi)</span>
+                      ${lastDateStr ? `<span class="text-slate-400">Ultima volta: <strong class="text-slate-200">${lastDateStr}</strong></span>` : ''}
+                    </div>
+                  ` : `
+                    <div class="pt-1.5 border-t border-slate-800/60 text-[11px] text-slate-500">
+                      Prima sessione da registrare • I carichi resteranno salvati per le settimane successive
+                    </div>
+                  `}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+        return;
+      }
+
+      const wk = state.activeWorkout;
+      container.innerHTML = `
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 space-y-2">
+          <input type="text" value="${wk.name.replace(/"/g, '&quot;')}" oninput="state.activeWorkout.name = this.value; saveState();" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 font-extrabold text-white text-base outline-none focus:border-emerald-400" />
+          <div class="flex justify-between items-center text-xs text-slate-400 pt-1">
+            <span>Esercizi: <strong class="text-white">${wk.exercises.length}</strong></span>
+            <span class="text-emerald-400 font-bold">📊 Carichi precedenti elencati sotto</span>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          ${wk.exercises.length === 0 ? `
+            <div class="bg-slate-900/50 border-2 border-dashed border-slate-800 rounded-3xl p-8 text-center space-y-2">
+              <div class="text-2xl">🏋️</div>
+              <div class="font-bold text-white text-sm">Nessun esercizio ancora aggiunto</div>
+              <p class="text-xs text-slate-400">Tocca "+ Aggiungi Esercizio" qui sotto per iniziare.</p>
+            </div>
+          ` : wk.exercises.map((ex, idx) => {
+            const lastInfo = getLastSessionInfoForExercise(ex.exerciseId);
+            const lastDateFormatted = lastInfo ? new Date(lastInfo.date).toLocaleDateString('it-IT', { day: 'numeric', month: 'short' }) : '';
+
+            return `
+            <div class="bg-slate-900 border ${ex.unilateral ? 'border-cyan-500/40' : 'border-slate-800'} rounded-2xl overflow-hidden shadow-lg">
+              <div class="p-3.5 border-b border-slate-800 flex items-start justify-between gap-2">
+                <div>
+                  <div class="flex items-center gap-1.5 flex-wrap">
+                    <span class="text-xs font-extrabold px-2 py-0.5 rounded bg-slate-800 text-emerald-400">#${idx + 1}</span>
+                    <h3 class="font-extrabold text-white text-sm sm:text-base">${ex.name}</h3>
+                  </div>
+                  <div class="flex items-center gap-1.5 mt-1 flex-wrap">
+                    <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">${ex.category}</span>
+                    <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-950 text-slate-400 border border-slate-800">${ex.equipment || 'Attrezzo'}</span>
+                    ${ex.unilateral ? `<span class="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">↔️ MONOLATERALE SX + DX</span>` : ''}
+                  </div>
+                </div>
+                <div class="flex items-center gap-1 shrink-0">
+                  <button onclick="startRest(${ex.restTime || 90})" class="px-2.5 py-1.5 rounded-lg bg-slate-800 text-amber-300 text-xs font-bold border border-slate-700">⏱️ ${ex.restTime || 90}s</button>
+                  <button onclick="removeExerciseBlock('${ex.instanceId}')" class="p-1.5 text-slate-400 hover:text-rose-400 font-bold">🗑️</button>
+                </div>
+              </div>
+
+              <div class="px-3 pt-3">
+                ${lastInfo ? `
+                  <div class="bg-blue-950/40 border border-blue-500/40 rounded-xl p-2.5 space-y-1.5">
+                    <div class="flex items-center justify-between gap-2">
+                      <span class="text-[11px] font-extrabold uppercase tracking-wider text-blue-300">
+                        📊 Ultima Volta (${lastDateFormatted}) — Da dove partire:
+                      </span>
+                      <button onclick="applyLastSessionToExerciseBlock('${ex.instanceId}')" class="px-2 py-0.5 rounded bg-blue-500/20 hover:bg-blue-500/30 text-blue-200 border border-blue-400/30 text-[10px] font-extrabold">
+                        🔄 Ricarica Kg
+                      </button>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5">
+                      ${lastInfo.sets.map((ls, lIdx) => `
+                        <span class="px-2 py-1 rounded-lg bg-slate-950/90 border border-blue-500/30 text-xs font-bold text-white">
+                          <strong class="text-blue-400">#${lIdx + 1}:</strong> ${formatSingleSetSummary(ls, ex.unilateral || lastInfo.unilateral)}
+                        </span>
+                      `).join('')}
+                    </div>
+                  </div>
+                ` : `
+                  <div class="bg-slate-950/60 border border-slate-800 rounded-xl px-3 py-2 text-[11px] text-slate-400">
+                    ℹ️ Nessun carico precedente salvato per questo esercizio. Inserisci i Kg oggi e premi <strong>"Termina e Salva"</strong> a fine scheda per ritrovarli la settimana prossima!
+                  </div>
+                `}
+              </div>
+
+              <div class="px-3 pt-2.5">
+                <div class="grid grid-cols-2 gap-1.5 p-1 bg-slate-950 border border-slate-800 rounded-xl">
+                  <button onclick="toggleBlockUnilateral('${ex.instanceId}', false)" class="py-2 rounded-lg text-xs font-extrabold transition ${!ex.unilateral ? 'bg-emerald-500 text-slate-950 shadow' : 'text-slate-400'}">
+                    🏋️ Bilaterale (2 Lati)
+                  </button>
+                  <button onclick="toggleBlockUnilateral('${ex.instanceId}', true)" class="py-2 rounded-lg text-xs font-extrabold transition ${ex.unilateral ? 'bg-gradient-to-r from-cyan-400 to-amber-400 text-slate-950 shadow' : 'text-slate-400'}">
+                    ↔️ Monolaterale (SX + DX)
+                  </button>
+                </div>
+              </div>
+
+              <div class="px-3 pt-2.5">
+                <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl px-3 py-2">
+                  <div class="text-[10px] font-extrabold uppercase tracking-wider text-emerald-400 mb-0.5">📌 Note Esecuzione</div>
+                  <input type="text" value="${(ex.notes || '').replace(/"/g, '&quot;')}" oninput="const b = state.activeWorkout.exercises.find(x => x.instanceId === '${ex.instanceId}'); if(b){ b.notes = this.value; saveState(); }" placeholder="Note esecuzione..." class="w-full bg-transparent text-xs font-semibold text-slate-200 outline-none" />
+                </div>
+              </div>
+
+              <div class="p-3 space-y-2.5">
+                ${!ex.unilateral ? `
+                  <div class="grid grid-cols-12 gap-1.5 text-[10px] font-bold uppercase text-slate-400 px-1">
+                    <div class="col-span-2 text-center">Serie</div>
+                    <div class="col-span-4 text-center">Peso (Kg)</div>
+                    <div class="col-span-3 text-center">Ripet.</div>
+                    <div class="col-span-3 text-center">Fatto</div>
+                  </div>
+                  ${ex.sets.map((s, si) => {
+                    const prevSetObj = lastInfo && lastInfo.sets ? (lastInfo.sets[si] || null) : null;
+                    const prevHint = prevSetObj ? `Prec: ${formatSingleSetSummary(prevSetObj, false)}` : '';
+                    return `
+                    <div class="p-1.5 rounded-xl border space-y-1 ${s.completed ? 'bg-emerald-500/10 border-emerald-500/40' : 'bg-slate-950/70 border-slate-800'}">
+                      <div class="grid grid-cols-12 gap-1.5 items-center">
+                        <div class="col-span-2 text-center font-extrabold text-xs text-slate-300">
+                          #${si + 1}${s.setType && s.setType !== 'N' ? `<span class="block text-[9px] text-amber-400">${s.setType}</span>` : ''}
+                        </div>
+                        <div class="col-span-4">
+                          <input type="number" inputmode="decimal" step="0.5" placeholder="${prevSetObj ? (prevSetObj.weight || 'Kg') : 'Kg'}" value="${s.weight}" oninput="updateSetVal('${ex.instanceId}', '${s.id}', 'weight', this.value)" class="w-full bg-slate-900 border border-slate-700 focus:border-emerald-400 rounded-xl py-2 text-center font-bold text-white" />
+                        </div>
+                        <div class="col-span-3">
+                          <input type="number" inputmode="numeric" placeholder="${prevSetObj ? (prevSetObj.reps || 'Reps') : 'Reps'}" value="${s.reps}" oninput="updateSetVal('${ex.instanceId}', '${s.id}', 'reps', this.value)" class="w-full bg-slate-900 border border-slate-700 focus:border-emerald-400 rounded-xl py-2 text-center font-bold text-white" />
+                        </div>
+                        <div class="col-span-3 flex items-center gap-1">
+                          <button onclick="toggleSetDone('${ex.instanceId}', '${s.id}')" class="flex-1 py-2 rounded-xl font-extrabold text-sm ${s.completed ? 'bg-emerald-500 text-slate-950' : 'bg-slate-800 text-slate-300 border border-slate-700'}">✓</button>
+                          ${ex.sets.length > 1 ? `<button onclick="removeSet('${ex.instanceId}', '${s.id}')" class="px-1.5 text-slate-500 hover:text-rose-400 font-bold">✕</button>` : ''}
+                        </div>
+                      </div>
+                      ${prevHint ? `<div class="text-[10px] text-blue-300 font-semibold pl-2">↳ Settimana scorsa Serie #${si + 1}: <strong>${prevHint.replace('Prec: ', '')}</strong></div>` : ''}
+                    </div>
+                  `;
+                  }).join('')}
+                ` : `
+                  ${ex.sets.map((s, si) => {
+                    const prevSetObj = lastInfo && lastInfo.sets ? (lastInfo.sets[si] || null) : null;
+                    const prevHint = prevSetObj ? formatSingleSetSummary(prevSetObj, true) : '';
+                    return `
+                    <div class="rounded-2xl p-2.5 border space-y-2 ${s.completed ? 'bg-emerald-500/10 border-emerald-500/40' : 'bg-slate-950/80 border-slate-800'}">
+                      <div class="flex items-center justify-between gap-2 pb-1 border-b border-slate-800">
+                        <div class="flex items-center gap-2 flex-wrap">
+                          <span class="px-2 py-0.5 rounded bg-slate-800 text-xs font-extrabold text-white">SERIE #${si + 1}</span>
+                          <button onclick="copyLeftToRight('${ex.instanceId}', '${s.id}')" class="px-2 py-1 rounded-lg bg-slate-800 text-[11px] font-bold text-cyan-300 border border-slate-700">= Copia SX→DX</button>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                          <button onclick="toggleSetDone('${ex.instanceId}', '${s.id}')" class="px-3 py-1 rounded-xl font-extrabold text-xs ${s.completed ? 'bg-emerald-500 text-slate-950' : 'bg-slate-800 text-white border border-slate-700'}">
+                            ${s.completed ? 'Completata ✓' : 'Segna Serie'}
+                          </button>
+                          ${ex.sets.length > 1 ? `<button onclick="removeSet('${ex.instanceId}', '${s.id}')" class="px-1.5 text-slate-500 hover:text-rose-400 font-bold">✕</button>` : ''}
+                        </div>
+                      </div>
+
+                      ${prevHint ? `<div class="text-[11px] text-blue-300 font-bold bg-blue-950/30 border border-blue-500/20 rounded-lg px-2.5 py-1">📊 Settimana scorsa #${si + 1}: <span class="text-white">${prevHint}</span></div>` : ''}
+
+                      <div class="grid grid-cols-12 gap-2 items-center bg-cyan-950/25 border border-cyan-500/30 rounded-xl p-1.5">
+                        <div class="col-span-4 pl-1 font-extrabold text-xs text-cyan-300">🔵 LATO SX</div>
+                        <div class="col-span-4">
+                          <input type="number" inputmode="decimal" step="0.5" placeholder="Kg SX" value="${s.weightL}" oninput="updateSetVal('${ex.instanceId}', '${s.id}', 'weightL', this.value)" class="w-full bg-slate-900 border border-cyan-500/40 rounded-xl py-1.5 text-center font-bold text-white" />
+                        </div>
+                        <div class="col-span-4">
+                          <input type="number" inputmode="numeric" placeholder="Reps SX" value="${s.repsL}" oninput="updateSetVal('${ex.instanceId}', '${s.id}', 'repsL', this.value)" class="w-full bg-slate-900 border border-cyan-500/40 rounded-xl py-1.5 text-center font-bold text-white" />
+                        </div>
+                      </div>
+
+                      <div class="grid grid-cols-12 gap-2 items-center bg-amber-950/25 border border-amber-500/30 rounded-xl p-1.5">
+                        <div class="col-span-4 pl-1 font-extrabold text-xs text-amber-300">🟠 LATO DX</div>
+                        <div class="col-span-4">
+                          <input id="input-wR-${s.id}" type="number" inputmode="decimal" step="0.5" placeholder="Kg DX" value="${s.weightR}" oninput="updateSetVal('${ex.instanceId}', '${s.id}', 'weightR', this.value)" class="w-full bg-slate-900 border border-amber-500/40 rounded-xl py-1.5 text-center font-bold text-white" />
+                        </div>
+                        <div class="col-span-4">
+                          <input id="input-rR-${s.id}" type="number" inputmode="numeric" placeholder="Reps DX" value="${s.repsR}" oninput="updateSetVal('${ex.instanceId}', '${s.id}', 'repsR', this.value)" class="w-full bg-slate-900 border border-amber-500/40 rounded-xl py-1.5 text-center font-bold text-white" />
+                        </div>
+                      </div>
+                    </div>
+                  `;
+                  }).join('')}
+                `}
+
+                <button onclick="addSet('${ex.instanceId}')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold text-xs border border-slate-700">
+                  + Aggiungi Serie ${ex.unilateral ? '(SX + DX)' : ''}
+                </button>
+              </div>
+            </div>
+          `;
+          }).join('')}
+        </div>
+
+        <div class="space-y-3 pt-2">
+          <button onclick="openPickerModal()" class="w-full py-4 rounded-2xl bg-slate-900 border-2 border-emerald-500/40 text-emerald-400 font-extrabold text-base shadow-lg">
+            + Aggiungi Esercizio
+          </button>
+          <div class="grid grid-cols-3 gap-3">
+            <button onclick="cancelActiveWorkout()" class="col-span-1 py-3.5 rounded-2xl bg-rose-950/50 border border-rose-500/30 text-rose-300 font-bold text-sm">
+              Annulla
+            </button>
+            <button onclick="finishAndSaveWorkout()" class="col-span-2 py-3.5 rounded-2xl bg-emerald-500 text-slate-950 font-extrabold text-base shadow-lg">
+              ✓ Termina e Salva Carichi
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderHistoryView() {
+      const container = document.getElementById('view-history');
+      if (!container) return;
+      if (state.workouts.length === 0) {
+        container.innerHTML = `
+          <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 text-center space-y-2">
+            <div class="text-3xl">📅</div>
+            <h3 class="font-bold text-white text-base">Ancora nessun allenamento salvato</h3>
+            <p class="text-xs text-slate-400">Completa una sessione nella scheda Allenamento per vederla qui.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-extrabold text-white">Storico Allenamenti</h2>
+          <span class="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs font-bold text-emerald-400">${state.workouts.length} sessioni</span>
+        </div>
+        <div class="space-y-3">
+          ${state.workouts.map(w => `
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 space-y-3">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h3 class="font-extrabold text-white text-base">${w.name}</h3>
+                  <div class="text-xs text-slate-400 mt-0.5">
+                    📅 ${new Date(w.date).toLocaleDateString('it-IT')} • ⏱️ ${formatTime(w.durationSeconds || 0)} • 🔥 ${w.totalVolume || 0} kg
+                  </div>
+                </div>
+                <button onclick="deleteWorkout('${w.id}')" class="text-slate-500 hover:text-rose-400 p-1">🗑️</button>
+              </div>
+              <div class="space-y-2 border-t border-slate-800 pt-2.5">
+                ${(w.exercises || []).map(ex => `
+                  <div class="text-xs">
+                    <div class="font-bold text-emerald-400">${ex.name} ${ex.unilateral ? '<span class="text-cyan-300">(SX+DX)</span>' : ''}</div>
+                    <div class="flex flex-wrap gap-1.5 mt-1">
+                      ${(ex.sets || []).map((s, idx) => `
+                        <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-slate-300">
+                          #${idx + 1}: ${ex.unilateral ? `SX ${s.weightL}kg×${s.repsL} | DX ${s.weightR}kg×${s.repsR}` : `${s.weight}kg × ${s.reps}`}
+                        </span>
+                      `).join('')}
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function deleteWorkout(id) {
+      state.workouts = state.workouts.filter(w => w.id !== id);
+      saveState();
+      renderHistoryView();
+      showToast('Allenamento eliminato');
+    }
+
+    function renderExercisesView() {
+      const container = document.getElementById('view-exercises');
+      if (!container) return;
+      const all = getAllExercises();
+      const q = (state.searchExTab || '').toLowerCase();
+      const filtered = all.filter(ex => {
+        const mCat = state.selectedCategory === 'Tutti' || ex.category === state.selectedCategory;
+        const mUni = !state.onlyUni || ex.unilateral;
+        const mQ = !q || ex.name.toLowerCase().includes(q) || ex.category.toLowerCase().includes(q);
+        return mCat && mUni && mQ;
+      });
+
+      container.innerHTML = `
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-xl font-extrabold text-white">Database Esercizi (${filtered.length})</h2>
+            <p class="text-xs text-slate-400">Attiva o disattiva SX+DX su qualsiasi esercizio</p>
+          </div>
+          <button onclick="openNewExModal()" class="px-3.5 py-2 rounded-xl bg-emerald-500 text-slate-950 font-extrabold text-xs">+ Crea Nuovo</button>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 space-y-2.5">
+          <input type="text" value="${state.searchExTab.replace(/"/g, '&quot;')}" oninput="state.searchExTab = this.value; renderExercisesView();" placeholder="Cerca esercizio..." class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2 text-sm text-white outline-none" />
+          <div class="flex gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+            ${CATEGORIES.map(c => `
+              <button onclick="state.selectedCategory = '${c}'; renderExercisesView();" class="px-3 py-1 rounded-xl text-xs font-bold shrink-0 ${state.selectedCategory === c ? 'bg-emerald-500 text-slate-950' : 'bg-slate-950 text-slate-400 border border-slate-800'}">${c}</button>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          ${filtered.map(ex => {
+            const lastInfo = getLastSessionInfoForExercise(ex.id);
+            return `
+            <div class="bg-slate-900 border ${ex.unilateral ? 'border-cyan-500/30' : 'border-slate-800'} rounded-2xl p-3.5 flex items-center justify-between gap-2">
+              <div>
+                <div class="font-bold text-white text-sm">${ex.name}</div>
+                <div class="text-xs text-slate-400 mt-0.5">${ex.category} • ${ex.equipment}</div>
+                ${lastInfo ? `<div class="text-[11px] text-blue-300 font-semibold mt-1">Ultimo: ${formatSingleSetSummary(lastInfo.sets[0], ex.unilateral)}</div>` : ''}
+              </div>
+              <div class="flex items-center gap-1.5 shrink-0">
+                <button onclick="toggleCatalogUni('${ex.id}')" class="px-2.5 py-1.5 rounded-xl text-xs font-extrabold border ${ex.unilateral ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/40' : 'bg-slate-950 text-slate-400 border-slate-800'}">
+                  SX+DX: ${ex.unilateral ? 'ON' : 'OFF'}
+                </button>
+                <button onclick="addExerciseToActive('${ex.id}', ${ex.unilateral})" class="px-3 py-1.5 rounded-xl bg-emerald-500 text-slate-950 font-extrabold text-xs">
+                  + Scheda
+                </button>
+              </div>
+            </div>
+          `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    function toggleCatalogUni(exId) {
+      const all = getAllExercises();
+      const target = all.find(x => x.id === exId);
+      if (!target) return;
+      state.uniOverrides[exId] = !target.unilateral;
+      saveState();
+      renderExercisesView();
+    }
+
+    function renderTimerView() {
+      const container = document.getElementById('view-timer');
+      if (!container) return;
+      container.innerHTML = `
+        <div class="text-center space-y-1">
+          <h2 class="text-xl font-extrabold text-white">Timer di Recupero</h2>
+          <p class="text-xs text-slate-400">Suona a fine countdown anche durante l'allenamento</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 flex flex-col items-center">
+          <div class="w-52 h-52 rounded-full border-8 border-slate-800 bg-slate-950 flex flex-col items-center justify-center">
+            <div id="timer-big-display" class="text-5xl font-extrabold font-mono text-amber-400">${formatTime(state.restRemaining)}</div>
+          </div>
+          <div class="flex items-center gap-3 mt-6">
+            <button onclick="adjustRest(-15)" class="px-4 py-2.5 rounded-xl bg-slate-800 text-white font-bold text-xs">-15s</button>
+            <button onclick="startRest(90)" class="px-6 py-3 rounded-2xl bg-emerald-500 text-slate-950 font-extrabold text-sm">Avvia 90s</button>
+            <button onclick="adjustRest(15)" class="px-4 py-2.5 rounded-xl bg-slate-800 text-white font-bold text-xs">+15s</button>
+          </div>
+          <button onclick="stopRest()" class="mt-4 text-xs text-rose-400 font-bold">Azzera Timer</button>
+        </div>
+        <div class="grid grid-cols-3 gap-2.5">
+          ${[30, 60, 90, 120, 150, 180].map(sec => `
+            <button onclick="startRest(${sec})" class="bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-2xl p-3 text-center font-extrabold text-white text-sm">
+              ${sec} sec
+            </button>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function openPickerModal() {
+      const m = document.getElementById('modal-picker');
+      if (m) { m.classList.remove('hidden'); m.classList.add('flex'); }
+      renderPickerFilters();
+      renderPickerList();
+    }
+
+    function closePickerModal() {
+      const m = document.getElementById('modal-picker');
+      if (m) { m.classList.add('hidden'); m.classList.remove('flex'); }
+    }
+
+    function renderPickerFilters() {
+      const catBox = document.getElementById('picker-categories');
+      const eqBox = document.getElementById('picker-equipments');
+      if (catBox) {
+        catBox.innerHTML = CATEGORIES.map(c => `
+          <button onclick="state.selectedCategory = '${c}'; renderPickerFilters(); renderPickerList();" class="px-3 py-1 rounded-xl text-xs font-bold shrink-0 ${state.selectedCategory === c ? 'bg-emerald-500 text-slate-950' : 'bg-slate-800 text-slate-300'}">${c}</button>
+        `).join('');
+      }
+      if (eqBox) {
+        eqBox.innerHTML = EQUIPMENTS.map(eq => `
+          <button onclick="state.selectedEquipment = '${eq}'; renderPickerFilters(); renderPickerList();" class="px-2.5 py-1 rounded-lg text-[11px] font-bold shrink-0 ${state.selectedEquipment === eq ? 'bg-blue-500 text-slate-950' : 'bg-slate-900 text-slate-400 border border-slate-800'}">${eq}</button>
+        `).join('');
+      }
+    }
+
+    function renderPickerList() {
+      const listEl = document.getElementById('picker-list');
+      const countEl = document.getElementById('picker-count');
+      const q = (document.getElementById('picker-search')?.value || '').toLowerCase();
+      const all = getAllExercises();
+      const filtered = all.filter(ex => {
+        const mCat = state.selectedCategory === 'Tutti' || ex.category === state.selectedCategory;
+        const mEq = state.selectedEquipment === 'Tutti' || (ex.equipment || '').toLowerCase() === state.selectedEquipment.toLowerCase();
+        const mUni = !state.onlyUni || ex.unilateral;
+        const mQ = !q || ex.name.toLowerCase().includes(q) || ex.category.toLowerCase().includes(q);
+        return mCat && mEq && mUni && mQ;
+      });
+      if (countEl) countEl.textContent = filtered.length;
+      if (!listEl) return;
+      listEl.innerHTML = filtered.map(ex => `
+        <div class="bg-slate-950 border ${ex.unilateral ? 'border-cyan-500/30' : 'border-slate-800'} rounded-2xl p-3 flex items-center justify-between gap-2">
+          <div>
+            <div class="font-bold text-white text-sm">${ex.name}</div>
+            <div class="text-xs text-slate-400 mt-0.5">${ex.category} • ${ex.equipment}</div>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <button onclick="addExerciseToActive('${ex.id}', true)" class="px-2.5 py-2 rounded-xl bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 text-xs font-extrabold">+ SX/DX</button>
+            <button onclick="addExerciseToActive('${ex.id}', false)" class="px-2.5 py-2 rounded-xl bg-emerald-500 text-slate-950 text-xs font-extrabold">+ 2 Lati</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function openNewExModal() {
+      const m = document.getElementById('modal-new-ex');
+      if (m) { m.classList.remove('hidden'); m.classList.add('flex'); }
+    }
+
+    function closeNewExModal() {
+      const m = document.getElementById('modal-new-ex');
+      if (m) { m.classList.add('hidden'); m.classList.remove('flex'); }
+    }
+
+    function saveNewCustomExercise() {
+      const nameEl = document.getElementById('new-ex-name');
+      const catEl = document.getElementById('new-ex-cat');
+      const eqEl = document.getElementById('new-ex-eq');
+      const uniEl = document.getElementById('new-ex-uni');
+      const tipsEl = document.getElementById('new-ex-tips');
+      const name = (nameEl?.value || '').trim();
+      if (!name) {
+        showToast("Inserisci il nome dell'esercizio");
+        return;
+      }
+      const newEx = {
+        id: 'cust_' + Date.now(),
+        name,
+        category: catEl?.value || 'Altro',
+        equipment: eqEl?.value || 'Manubri',
+        unilateral: uniEl?.value === 'true',
+        defaultRest: 90,
+        tips: (tipsEl?.value || '').trim()
+      };
+      state.customExercises.push(newEx);
+      saveState();
+      if (nameEl) nameEl.value = '';
+      if (tipsEl) tipsEl.value = '';
+      closeNewExModal();
+      if (state.activeWorkout) {
+        addExerciseToActive(newEx.id, newEx.unilateral);
+      } else {
+        renderCurrentTab();
+        showToast(`Esercizio "${newEx.name}" creato!`);
+      }
+    }
+
+    function toggleOnlyUniFilter() {
+      state.onlyUni = !state.onlyUni;
+      const btn = document.getElementById('picker-uni-btn');
+      if (btn) {
+        btn.className = state.onlyUni
+          ? 'px-2.5 py-1 rounded-lg text-[11px] font-extrabold shrink-0 border bg-cyan-400 text-slate-950 border-cyan-300'
+          : 'px-2.5 py-1 rounded-lg text-[11px] font-extrabold shrink-0 border bg-slate-900 text-cyan-300 border-cyan-500/30';
+      }
+      renderPickerList();
+    }
+
+    function openSafariInstallModal() {
+      const m = document.getElementById('modal-safari-help');
+      if (m) { m.classList.remove('hidden'); m.classList.add('flex'); }
+    }
+
+    function closeSafariInstallModal() {
+      const m = document.getElementById('modal-safari-help');
+      if (m) { m.classList.add('hidden'); m.classList.remove('flex'); }
+    }
+
+    function exportJsonBackup() {
+      const payload = {
+        exportedAt: new Date().toISOString(),
+        workouts: state.workouts,
+        customExercises: state.customExercises,
+        uniOverrides: state.uniOverrides
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `Carichi_Palestra_Daniele_${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('Backup dei tuoi carichi scaricato!');
+    }
+
+    function importJsonBackup(event) {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const data = JSON.parse(e.target.result);
+          const importedWorkouts = data.workouts || data.workoutHistory || [];
+          if (Array.isArray(importedWorkouts)) {
+            state.workouts = importedWorkouts;
+          }
+          if (Array.isArray(data.customExercises)) {
+            state.customExercises = data.customExercises;
+          }
+          saveState();
+          closeSafariInstallModal();
+          renderCurrentTab();
+          showToast('Tutti i tuoi carichi e allenamenti sono stati ripristinati!');
+        } catch (err) {
+          showToast('File di backup non valido');
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function downloadSelfFile() {
+      saveState();
+      const htmlContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Diario_Palestra_Pro.html';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('File Diario_Palestra_Pro.html salvato!');
+    }
+
+    window.onload = () => {
+      renderCurrentTab();
+    };
+  </script>
+
+</body></html>
